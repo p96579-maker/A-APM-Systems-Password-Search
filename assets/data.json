@@ -1,0 +1,1892 @@
+{
+  "systems": [
+    "Communication",
+    "PSD",
+    "SCADA",
+    "Signalling",
+    "Other"
+  ],
+  "rows": [
+    {
+      "system": "Communication",
+      "category": "CCTV",
+      "equipment": "1.1 CCTV camera",
+      "login": "root",
+      "password": "manager",
+      "remark": "Use onboard CCTV camera IP address to login\n1)4 Car Train - 192.168.1xx.11-18\n2)2 Car Train - 192.168.1xx.11-14\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "CCTV",
+      "equipment": "1.2 Decoder",
+      "login": "root",
+      "password": "manager",
+      "remark": "Use respective IP address to login\n1)4 Car Train - 192.168.1xx.51-58\n2)2 Car Train - 192.168.1xx.51-54\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "CCTV",
+      "equipment": "1.3 VCA console (CCTV)",
+      "login": "depot",
+      "password": "dpass",
+      "remark": "(APM onboard CCTV only)\nMilestone login via VCA Console(connected VCA server)\nServer Address: http://192.168.1.221:95/\nAuthentication: Basic authentication",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "CCTV",
+      "equipment": "1.4 NVR server",
+      "login": "Administrator",
+      "password": "P534admin",
+      "remark": "T1 Line,\nIP address: 192.168.8.6/16\n\nSP Line,\nIP address: (TBA)",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "CCTV",
+      "equipment": "1.5 Smart CCTV Workstation",
+      "login": "APM",
+      "password": "Apmapm2020!",
+      "remark": "For Smart CCTV console which maintained by Chubb of Electronics Team (All CCTV in Terminal plus APM onboard CCTV video)",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.1 Wayside interface server 1",
+      "login": "siriushk",
+      "password": "M4CRqtID",
+      "remark": "1) For T1L / RRL\nLocated at CR40 SER, Old Depot\nIP address: 192.168.7.3\n\n2) For SPL\nLocated at 1P005 SPL SER (New SER),  Old Depot\nIP address: 192.168.8.3",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.2 Wayside interface server 2",
+      "login": "siriushk",
+      "password": "Umjcflnl",
+      "remark": "1) For T1L / RRL\nLocated at CR40 SER, Old Depot\nIP address: 192.168.7.4\n\n2) For SPL\nLocated at 1P005 SPL SER (New SER),  Old Depot\nIP address: 192.168.8.4",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.5 EH DMS controller",
+      "login": "siriushk",
+      "password": "rBU52nG3",
+      "remark": "IP address - 192.168.7.20",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.6 WH DMS controller",
+      "login": "siriushk",
+      "password": "4z6Spcxh",
+      "remark": "IP address - 192.168.7.40",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.7 MF DMS controller",
+      "login": "siriushk",
+      "password": "rp.fa1nW",
+      "remark": "IP address - 192.168.7.100",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.8 Platform DMS (New for P534)",
+      "login": "super",
+      "password": "super2006",
+      "remark": "IP address\n1)192.168.1.18-21 @ EHD\n2)192.168.1.38-41 @ WHA\n3)10.1.7.41-52 @ WHD\n4)10.1.7.61-72 @ WHR\n5)10.1.7.81-92 @ MFA\n6)10.1.7.101-112 @ MFR",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.9 Platform PA AMP",
+      "login": "admin",
+      "password": "admin",
+      "remark": "1)IP address - 192.168.8.11 @ EH\n2)IP address - 192.168.8.12 @ WH\n3)IP address - 192.168.8.13@MF\n4)IP address - 192.168.8.14 @ T1A\n5)IP address - 192.168.8.16 @ Pier",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.10 T1A DMS controller",
+      "login": "admin",
+      "password": "admin",
+      "remark": "Controller IP address - 192.168.8.24 \nDigital Output Device IP address - 192.168.8.34",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.11 Pier DMS Controller",
+      "login": "admin",
+      "password": "admin",
+      "remark": "Controller IP address - 192.168.8.26 \nDigital Output Device IP address - 192.168.8.36",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Platform PIS/PAS",
+      "equipment": "2.12 FBTC/CBTC DMS Changeover Server (NVR Server in 1P050)",
+      "login": "Administrator",
+      "password": "P534admin",
+      "remark": "For SPL DMS changeover from FBTC to CBTC\nIP Address: 192.168.101.7",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.1 AP",
+      "login": "root",
+      "password": "manager",
+      "remark": "Please refer to the onboard comms equipment IP address list\nIP address - 192.168.1xx.1\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.2 PEI",
+      "login": "admin",
+      "password": "admin",
+      "remark": "Please refer to the onboard comms equipment IP address list\n1)4Car Train - 192.168.1xx.21-28\n2)2Car Train - 192.168.1xx.21-24\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.3 TCX",
+      "login": "admin",
+      "password": "admin",
+      "remark": "Please refer to the onboard comms equipment IP address list\nIP address - 192.168.1xx.2\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.4 Onboard PA amplifier",
+      "login": "admin",
+      "password": "admin",
+      "remark": "Please refer to the onboard comms equipment IP address list\nIP address - 192.168.1xx.3\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.5 Onboard DMS",
+      "login": "root",
+      "password": "erphost",
+      "remark": "Please refer to the onboard comms equipment IP address list\n1)4Car Train - 192.168.1xx.31-38\n2)2Car Train - 192.168.1xx.31-34\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.6a Comms NMS, Windows 10 Login",
+      "login": "1) admin,  for Windows 10 login\n2) admin, for SyncUP Time Client",
+      "password": "1) manager, for Windows 10 login\n2) admin, for SyncUp Time Client",
+      "remark": "Please refer to the onboard comms equipment IP address list\n1)192.168.8.7 for T1,RR @ BCR\n2)192.168.8.10 for SP @ BCR\n3) 192.168.1.108/118.35 or 192.168.3.100 or 192.168.9.9 for T1, RR @ CCR\n4) 192.168.9.9 for T1, SP @ CCR",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.6b Comms NMS, SyncUp Time Client Login",
+      "login": "admin",
+      "password": "admin",
+      "remark": "",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.7 Comms console\n(IPPA Paging Station)",
+      "login": "admin",
+      "password": "admin",
+      "remark": "Please refer to the onboard comms equipment IP address list\n1) DCR: 192.168.9.1 @ T1 / 192.168.9.2 @ RR / 192.168.9.1 @ SP\n2) CCR: 192.168.9.11 @ T1 / 192.168.9.12 @ RR / 192.168.9.11 @ SP\n3) TDMO: 192.168.9.21,  192.168.9.2 @ T1 / 192.9.25192.168.9.22 @ RR / 192.168.9.21 @ SP",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.8 Onboard Ethernet Network Switch",
+      "login": "root\nadmin",
+      "password": "manager",
+      "remark": "Please refer to the onboard comms equipment IP address list\n1)4Car Train - 192.168.1xx.41-44\n2)2Car Train - 192.168.1xx.41-42\nRemarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.9 Wayside AP",
+      "login": "root",
+      "password": "manager",
+      "remark": "Please refer to the IP address assignemnt for AP in O&M manual\n1)192.168.10.1-46 @ T1\n2)192.168.11.1-11 @ RR\n3)192.168.12.1-2 @ Depot\n4)192.168.13.1-10 @ SP\n5)192.168.13.11 @ SP Depot\n6)192.168.13.12 @ Tee off to New Depot\n7)192.168.13.13-14 @ New Depot",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.10 T1L Communication Exchange Server (CXS)",
+      "login": "Not provided by supplier",
+      "password": "Not provided by supplier",
+      "remark": "CXS1 - 192.168.8.1\nCXS2 - 192.168.8.2\n\nNot root/manager, not admin/admin",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.11 SPL Communication Exchange Server (CXS)",
+      "login": "Not provided by supplier",
+      "password": "Not provided by supplier",
+      "remark": "CXS1 - 192.168.8.1/16\nCXS2 - 192.168.8.2/16\n\nNot root/manager, not admin/admin",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.12 Core Switch",
+      "login": "admin",
+      "password": "manager",
+      "remark": "T1 line CS1&2: 192.168.8.200\nSP line CS1&2: 192.168.8.200 192.168.8.230",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.13 Access Switch",
+      "login": "admin",
+      "password": "manager",
+      "remark": "T1 line AS1: 192.168.8.202\nT1 line AS2: 192.168.8.203\nT1 line AS5: 192.168.8.206\nT1 line AS6: 192.168.8.207\nT1 line AS7: 192.168.8.208 (ENS team asset)\nSP line AS1: 192.168.8.202 192.168.8.232\nSP line AS2: 192.168.8.203 192.168.8.233\nCCR T1L AS1: 192.168.8.220\nCCR SPL AS1: 192.168.8.220 192.168.8.250",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.16 Record Server",
+      "login": "Administrator",
+      "password": "manager",
+      "remark": "T1 line Record Server: 192.168.8.10\nSP line Record Server: 192.168.8.11",
+      "date": ""
+    },
+    {
+      "system": "Communication",
+      "category": "Comms",
+      "equipment": "3.17 New NMS Server",
+      "login": "1) admin,  for Windows Server login\n2) admin, for H3C iMC",
+      "password": "1) P@ssw0rd,  for Windows Server login\n2) Pwd@12345, for H3C iMC",
+      "remark": "T1 line New NMS Server: 192.168.8.241\nSP line New NMS Server: 192.168.8.242",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "T1 Shun Hing",
+      "equipment": "6a.1 Panasonic PSD PLC",
+      "login": "pewish",
+      "password": "vipvip",
+      "remark": "PEDC ScreenDoor software for PLC",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "T1 Shun Hing",
+      "equipment": "6a.2 Panasonic PSD workstation",
+      "login": "user",
+      "password": "(blank)",
+      "remark": "Windows 10 login account",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "T1 Shun Hing",
+      "equipment": "6a.3 SHSI(Shun Hing) PSD MMI",
+      "login": "pewish",
+      "password": "vipvip",
+      "remark": "PSD MMI Program",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "SPL CNIM",
+      "equipment": "6b.1 CNIM PSD Server",
+      "login": "cnimhk",
+      "password": "apm@2013",
+      "remark": "IP: 192.168.50.65",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "SPL CNIM",
+      "equipment": "6b.2 CNIM PSD Software",
+      "login": "administrator",
+      "password": "apm@2013",
+      "remark": "",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "SPL CNIM",
+      "equipment": "6b.3 CNIM PSD DCU Software",
+      "login": "(blank)",
+      "password": "troll",
+      "remark": "For CNIM PSD DCU Configuration",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "SPL MHI",
+      "equipment": "6c.1 MHI PSD Server",
+      "login": "",
+      "password": "123456",
+      "remark": "IP: 192.168.50.101",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "SPL PSD Integrated",
+      "equipment": "6 Merged MHI & CNIM workstation windows (by 3602)",
+      "login": "user",
+      "password": "1qaz@WSX",
+      "remark": "Users Account (IP: 192.168.62.100)",
+      "date": ""
+    },
+    {
+      "system": "PSD",
+      "category": "SPL PSD Integrated",
+      "equipment": "",
+      "login": "vncuser",
+      "password": "3edc$RFV5tgb",
+      "remark": "Administrator Account",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.1 SCADA software",
+      "login": "engineer",
+      "password": "engineer",
+      "remark": "User 1",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.2 SCADA software",
+      "login": "T1OP",
+      "password": "T1OP",
+      "remark": "User 2",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.3 SCADA software",
+      "login": "RROP",
+      "password": "RROP",
+      "remark": "User 3",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.4 SCADA Windows login",
+      "login": "Administrator",
+      "password": "Apm00000",
+      "remark": "Server Engineer Level",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.5 SCADA Windows login",
+      "login": "SCADA",
+      "password": "SCADA",
+      "remark": "Server Operator Level",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.6 SCADA Windows login",
+      "login": "Engineer",
+      "password": "Engineer",
+      "remark": "Workstation Engineer Level",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.7 SCADA Windows login",
+      "login": "SPOP",
+      "password": "SPOP",
+      "remark": "Workstation Operator Level",
+      "date": ""
+    },
+    {
+      "system": "SCADA",
+      "category": "SCADA",
+      "equipment": "7.8 FTP client",
+      "login": "ntpupdate",
+      "password": "ntpupdate",
+      "remark": "FTP server:\n/FLASH0/wwwroot/conf/NTP\nFTP client:\n/FLASH0/wwwroot/conf/NTP/customrules",
+      "date": ""
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.1 T1&RRL or SPL ATS Server",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.1 T1&RRL or SPL ATS Server",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.1 T1&RRL or SPL ATS Server",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.2 T1&RRL or SPL Database Server",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.2 T1&RRL or SPL Database Server",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.2 T1&RRL or SPL Database Server",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.3 T1&RRL or SPL MSA Data Array",
+      "login": "monitor",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.3 T1&RRL or SPL MSA Data Array",
+      "login": "manage",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.4 T1&RRL or SPL Backup Server",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.4 T1&RRL or SPL Backup Server",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.4 T1&RRL or SPL Backup Server",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.5 T1&RRL or SPL Diagnostic Server",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.5 T1&RRL or SPL Diagnostic Server",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.5 T1&RRL or SPL Diagnostic Server",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.6 T1&RRL or SPL Data Recorder",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.6 T1&RRL or SPL Data Recorder",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.6 T1&RRL or SPL Data Recorder",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.7 T1&RRL or SPL CA Server",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.7 T1&RRL or SPL CA Server",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.7 T1&RRL or SPL CA Server",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 T1&RRL or SPL ATS Workstation",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 T1&RRL or SPL ATS Workstation",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 T1&RRL or SPL ATS Workstation",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 T1&RRL or SPL ATS Workstation (IAC)",
+      "login": "HKuser",
+      "password": "HKuser10!",
+      "remark": "OS: User account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 T1&RRL or SPL ATS Workstation (IAC)",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "OS: Administrative account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 T1&RRL or SPL ATS Workstation (IAC)",
+      "login": "sysadmin",
+      "password": "HKadmin10!",
+      "remark": "OS: Built-in administrative account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "Admin",
+      "password": "HKadmin10!",
+      "remark": "ATS: Admidmistrative account for ATS Workstation",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "ABD-T1L-OC",
+      "password": "ABD-T1L-OC!",
+      "remark": "ATS: APMOC T1L account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "ABD-SPL-OC",
+      "password": "ABD-SPL-OC!",
+      "remark": "ATS: APMOC SPL account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "ABD-AM",
+      "password": "ABD-AM!",
+      "remark": "ATS: APMAM account (T1 & SP)",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "T1L-MC-TH",
+      "password": "T1L-MC-TH?!",
+      "remark": "ATS: APMMC T1L TH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "SPL-MC-TH",
+      "password": "SPL-MC-TH?!",
+      "remark": "ATS: APMMC SPL TH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "T1L-MC",
+      "password": "T1L-MC?!",
+      "remark": "ATS: APMMC T1L NTH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.8 ATS Software",
+      "login": "SPL-MC",
+      "password": "SPL-MC?!",
+      "remark": "ATS: APMMC SPL NTH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.9 T1&RRL or SPL Diagnostic Workstation",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.9 T1&RRL or SPL Diagnostic Workstation",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.9 T1&RRL or SPL Diagnostic Workstation",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 T1&RRL or SPL MIMIC Workstation",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 T1&RRL or SPL MIMIC Workstation",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 T1&RRL or SPL MIMIC Workstation",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 T1&RRL or SPL MIMIC Workstation (IAC)",
+      "login": "HKuser",
+      "password": "HKuser10!",
+      "remark": "OS: User account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 T1&RRL or SPL MIMIC Workstation (IAC)",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "OS: Administrative account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 T1&RRL or SPL MIMIC Workstation (IAC)",
+      "login": "sysadmin",
+      "password": "HKadmin10!",
+      "remark": "OS: Built-in administrative account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "Admin",
+      "password": "HKadmin10!",
+      "remark": "ATS: Admidmistrative account for ATS Workstation",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "ABD-T1L-OC",
+      "password": "ABD-T1L-OC!",
+      "remark": "ATS: APMOC T1L account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "ABD-SPL-OC",
+      "password": "ABD-SPL-OC!",
+      "remark": "ATS: APMOC SPL account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "ABD-AM",
+      "password": "ABD-AM!",
+      "remark": "ATS: APMAM account (T1 & SP)",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "T1L-MC-TH",
+      "password": "T1L-MC-TH?!",
+      "remark": "ATS: APMMC T1L TH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "SPL-MC-TH",
+      "password": "SPL-MC-TH?!",
+      "remark": "ATS: APMMC SPL TH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "T1L-MC",
+      "password": "T1L-MC?!",
+      "remark": "ATS: APMMC T1L NTH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.10 ATS Software",
+      "login": "SPL-MC",
+      "password": "SPL-MC?!",
+      "remark": "ATS: APMMC SPL NTH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 T1&RRL or SPL LATS Workstation",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 T1&RRL or SPL LATS Workstation",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 T1&RRL or SPL LATS Workstation",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 T1&RRL or SPL LATS Workstation (IAC)",
+      "login": "HKuser",
+      "password": "HKuser10!",
+      "remark": "OS: User account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 T1&RRL or SPL LATS Workstation (IAC)",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "OS: Administrative account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 T1&RRL or SPL LATS Workstation (IAC)",
+      "login": "sysadmin",
+      "password": "HKadmin10!",
+      "remark": "OS: Built-in administrative account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "Admin",
+      "password": "HKadmin10!",
+      "remark": "ATS: Admidmistrative account for ATS Workstation",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "ABD-T1L-OC",
+      "password": "ABD-T1L-OC!",
+      "remark": "ATS: APMOC T1L account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "ABD-SPL-OC",
+      "password": "ABD-SPL-OC!",
+      "remark": "ATS: APMOC SPL account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "ABD-AM",
+      "password": "ABD-AM!",
+      "remark": "ATS: APMAM account (T1 & SP)",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "T1L-MC-TH",
+      "password": "T1L-MC-TH?!",
+      "remark": "ATS: APMMC T1L TH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "SPL-MC-TH",
+      "password": "SPL-MC-TH?!",
+      "remark": "ATS: APMMC SPL TH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "T1L-MC",
+      "password": "T1L-MC?!",
+      "remark": "ATS: APMMC T1L NTH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.11 ATS Software",
+      "login": "SPL-MC",
+      "password": "SPL-MC?!",
+      "remark": "ATS: APMMC SPL NTH account",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.12 T1&RRL or SPL Trusted NMS Workstation",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.12 T1&RRL or SPL Trusted NMS Workstation",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.12 T1&RRL or SPL Trusted NMS Workstation",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.13 T1&RRL or SPL ZC Diagnostic Collector",
+      "login": "HKuser",
+      "password": "APMv6[ml",
+      "remark": "OS: User account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.13 T1&RRL or SPL ZC Diagnostic Collector",
+      "login": "HKadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Computer",
+      "equipment": "4a.13 T1&RRL or SPL ZC Diagnostic Collector",
+      "login": "sysadmin",
+      "password": "APMv6[ml",
+      "remark": "OS: Built-in administrative account",
+      "date": "2023-08-25 00:00:00"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.1 LAN switch 1 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40LANSW1\nManagement IP:172.21.1.249/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.2 LAN switch 2 in CR40 server room",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40LANSW2\nManagement IP:172.21.1.250/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.3 Firewall 1 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name:CR40_FW1\nCluster Name: CR40_FW,\nPassword: CR40_FW\nManagent IP: 172.21.1.200/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.4 Firewall 2 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name:CR40_FW1\nCluster Name: CR40_FW,\nPassword: CR40_FW\nManagent IP: 172.21.1.200/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.5 External Interface Switch 01 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40BRD1\nManagement IP: 172.22.82.3/27",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.6 External Interface Switch 02 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40BRD2\nManagement IP: 172.22.82.4/27",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.7 Router 1 in CR40 server room",
+      "login": "admin",
+      "password": "private",
+      "remark": "Name: CR40_RTR1\nManagement IP: 172.22.74.1/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.8 Router 2 in CR40 server room",
+      "login": "admin",
+      "password": "private",
+      "remark": "Name: CR40_RTR2\nManagement IP: 172.22.74.2/25",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.9 Router 3 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_RTR3\nManagement IP: 172.22.74.3/26",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.10 Router 4 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_RTR4\nManagement IP: 172.22.74.4/27",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.11 Class 1 BB Switch 1 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_BB1_SW1\nManagement IP: 172.22.72.241/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.12 Class 2 BB Switch 1 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_BB2_SW1\nManagement IP: 172.21.253/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.13 Class 2 BB Switch 2 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_BB2_SW2\nManagement IP: 172.21.254/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.14 SD11 in CR40 server room",
+      "login": "root",
+      "password": "p",
+      "remark": "Physical IP address: 172.22.76.2",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.15 SD12 in CR40 server room",
+      "login": "root",
+      "password": "p",
+      "remark": "Physical IP address: 172.22.76.3",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.16 SD Loader in CR40 server room",
+      "login": "root",
+      "password": "p",
+      "remark": "Physical IP address: 172.22.1.210",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.17 Untrusted BB Switch 1 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_UBB_SW1\nManagement IP: 172.22.176.1/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.18 Untrusted BB Switch 2 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_UBB_SW2\nManagement IP: 172.22.176.2/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.19 Inter-ring Switch 1 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_IR_SW1\nManagement IP: 172.22.184.1/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (CR40 server room)",
+      "equipment": "4b.20 Inter-ring Switch 2 in CR40 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: CR40_IR_SW2\nManagement IP: 172.22.184.3/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (EH Computer room)",
+      "equipment": "4ba.1 LAN switch 1 in EH Computer room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: APMLANSW1\nManagement IP: 172.21.1.241/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (EH Computer room)",
+      "equipment": "4ba.2 LAN switch 2 in EH Computer room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: APMLANSW2\nManagement IP: 172.21.1.242/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.1 LAN switch 1 in 1MC074 room",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "Name: MCLANSW1\nManagement IP: 172.21.251/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.2 LAN switch 2 in 1MC074 room",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "Name: MCLANSW2\nManagement IP: 172.21.252/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.3 Router 1 in 1MC074 room",
+      "login": "admin",
+      "password": "private",
+      "remark": "Name: MC_RTR1\nManagement IP: 172.22.74.5/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.4 Router 2 in 1MC074 room",
+      "login": "admin",
+      "password": "private",
+      "remark": "Name: MC_RTR2\nManagement IP: 172.22.74.6/25",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.5 Router 3 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_RTR3\nManagement IP: 172.22.74.7/26",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.6 Router 4 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_RTR4\nManagement IP: 172.22.74.8/27",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.7 Class 1 BB switch 1 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_BB1_SW1\nManagement IP: 172.22.72.242/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.8 Class 2 BB switch 1 in 1MC074 room",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_BB2_SW1\nManagement IP: 172.21.5.253/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.9 Class 2 BB switch 2 in 1MC074 room",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_BB2_SW2\nManagement IP: 172.21.5.254/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.10 SD21 in 1MC074 room",
+      "login": "root",
+      "password": "p",
+      "remark": "Physical IP address: 172.22.76.42",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.11 SD22 in 1MC074 room",
+      "login": "root",
+      "password": "p",
+      "remark": "Physical IP address: 172.22.76.43",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.12 Untrusted BB Switch 1 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_UBB_SW1\nManagement IP: 172.22.176.3/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.13 Untrusted BB Switch 2 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_UBB_SW2\nManagement IP: 172.22.176.4/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.14 Inter-ring Switch 1 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_IR_SW1\nManagement IP: 172.22.184.4/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.15 Inter-ring Switch 2 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_IR_SW2\nManagement IP: 172.22.184.5/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.16 Inter-ring Switch 3 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_IR_SW3\nManagement IP: 172.22.184.6/18",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1MC074 room)",
+      "equipment": "4c.17 Inter-ring Switch 4 in 1MC074 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: MC_IR_SW4\nManagement IP: 172.22.184.7/19",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.1 LAN switch 1 in 1P050 room",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_LANSW1\nManagement IP: 172.21.9.249/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.2 LAN switch 2 in 1P050 room",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_LANSW2\nManagement IP: 172.21.9.250/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.3 Firewall 1 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_FW1\nManagement IP: 172.21.9.203/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.4 Firewall 2 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_FW2\nManagement IP: 172.21.9.204/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.5 External Interface Switch 01 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_EXT_SW1\nManagement IP: 172.22.82.3/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.6 External Interface Switch 02 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_EXT_SW2\nManagement IP: 172.22.82.4/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.7 Router 1 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_RTR_01\nManagement IP: 172.22.74.9/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.8 Router 2 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_RTR_02\nManagement IP: 172.22.74.10/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.9 Router 3 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_RTR_03\nManagement IP: 172.22.74.3/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.10 Router 4 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_RTR_04\nManagement IP: 172.22.74.4/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.11 Class 1 BB switch 1 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_BB1_SW1\nManagement IP: 172.22.74.243/24",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.12 Class 2 BB switch 1 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_BB2_SW1\nManagement IP: 172.21.9.253/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.13 Class 2 BB switch 2 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_BB2_SW2\nManagement IP: 172.21.9.254/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.14 Untrusted BB switch 1 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_UBB_SW1\nManagement IP: 172.22.176.5/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.15 Untrusted BB switch 2 in 1P050 room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_UBB_SW2\nManagement IP: 172.22.176.6/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.16 SD Loader in 1P050 server room",
+      "login": "root",
+      "password": "p",
+      "remark": "Physical IP address: 172.22.1.220",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.17 Inter-ring Switch 1 in 1P050 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_IR_SW1\nManagement IP: 172.22.184.8/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device (1P050 server room)",
+      "equipment": "4d.18 Inter-ring Switch 2 in 1P050 server room",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Name: 1P_IR_SW2\nManagement IP: 172.22.184.9/17",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (TDMO)",
+      "equipment": "4e.1 LAN switch 1 in TDMO",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: TDMOLANSW1\nManagement IP: 172.21.2.253/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (TDMO)",
+      "equipment": "4e.2 LAN switch 2 in TDMO",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: TDMOLANSW2\nManagement IP: 172.21.2.254/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (TDMO)",
+      "equipment": "4e.3 LAN switch 3 in TDMO",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: TDMOLANSW3\nManagement IP: 172.21.10.243/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (TDMO)",
+      "equipment": "4e.4 LAN switch 4 in TDMO",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: TDMOLANSW4\nManagement IP: 172.21.10.244/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (BIAC)",
+      "equipment": "4f.1 LAN switch 1 in BIAC",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: BIACLANSW1\nManagement IP: 172.21.3.243/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (BIAC)",
+      "equipment": "4f.2 LAN switch 2 in BIAC",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: BIACLANSW2\nManagement IP: 172.21.3.244/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (BIAC)",
+      "equipment": "4f.3 LAN switch 3 in BIAC",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: BIACLANSW3\nManagement IP: 172.21.11.243/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (BIAC)",
+      "equipment": "4f.4 LAN switch 4 in BIAC",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: BIACLANSW4\nManagement IP: 172.21.11.244/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (BCR)",
+      "equipment": "4g.1 LAN switch 3 in BCR",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: BCCRLANSW3\nManagement IP: 172.21.9.243/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (BCR)",
+      "equipment": "4g.2 LAN switch 4 in BCR",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: BCCRLANSW4\nManagement IP: 172.21.9.244/16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (New IAC)",
+      "equipment": "4h.1 LAN switch 1 in New IAC Room",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: NIACLANSW1\nManagement IP: 172.21.3.241 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (New IAC)",
+      "equipment": "4h.2 LAN switch 2 in New IAC Room",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: NIACLANSW2\nManagement IP: 172.21.3.242 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (New IAC)",
+      "equipment": "4h.3 LAN switch 3 in New IAC Room",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: NIACLANSW3\nManagement IP: 172.21.11.241 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (New IAC)",
+      "equipment": "4h.4 LAN switch 4 in New IAC Room",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: NIACLANSW4\nManagement IP: 172.21.11.242 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (CCR)",
+      "equipment": "4i.1 LAN switch 1 in CCR",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: CCLANSW1\nManagement IP: 172.21.1.239 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (CCR)",
+      "equipment": "4i.2 LAN switch 2 in CCR",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: CCLANSW2\nManagement IP: 172.21.11.240 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (CCR)",
+      "equipment": "4i.3 LAN switch 3 in CCR",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: CCLANSW3\nManagement IP: 172.21.9.241 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (CCR)",
+      "equipment": "4i.4 LAN switch 4 in CCR",
+      "login": "manager",
+      "password": "HKadmin10!",
+      "remark": "Name: CCLANSW4\nManagement IP: 172.21.9.242 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (AIS)",
+      "equipment": "4j.1 LAN switch 1 in New AIS Room",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "Name: AISLANSW1\nManagement IP: 172.21.13.249 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Network Device  (AIS)",
+      "equipment": "4j.2 LAN switch 2 in New AIS Room",
+      "login": "HKadmin",
+      "password": "HKadmin10!",
+      "remark": "Name: AISLANSW2\nManagement IP: 172.21.13.250 /16",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Devices",
+      "equipment": "4k.1 OBRU/MRU Radio untrusted/Radio trusted",
+      "login": "root",
+      "password": "thalesSDR",
+      "remark": "Please refer to the onboard OBRU/MRU IP address list",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Devices",
+      "equipment": "4k.2 WRU Network switch",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "Please refer to the WRU IP address list",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Devices",
+      "equipment": "4k.3 WRU Radio untrusted switch",
+      "login": "root",
+      "password": "thalesSDR",
+      "remark": "Please refer to the WRU IP address list",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Onboard",
+      "equipment": "5.1 FLMD - Windows",
+      "login": "FLMDadmin",
+      "password": "FLMDadmin",
+      "remark": "FLMD - Front Line Maintenance Device",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Onboard",
+      "equipment": "5.2 FLMD - Ubuntu",
+      "login": "ubuser",
+      "password": "ubuser",
+      "remark": "VirtualBox Ubuntu OS",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Onboard",
+      "equipment": "5.3 FLMD - Ubuntu",
+      "login": "root",
+      "password": "root",
+      "remark": "VOBC SYSlog download",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Onboard",
+      "equipment": "5.4 FLMD - Red Hat",
+      "login": "rhuser",
+      "password": "rhuser",
+      "remark": "VirtualBox Red Hat OS",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - Onboard",
+      "equipment": "5.5 FLMD - Red Hat",
+      "login": "root",
+      "password": "p",
+      "remark": "ZC SYSlog download (can be downloaded via WinSCP)",
+      "date": "NaT"
+    },
+    {
+      "system": "Signalling",
+      "category": "CBTC - CyberSecurity",
+      "equipment": "6.1 SEP Manager",
+      "login": "admin",
+      "password": "HKadmin10!",
+      "remark": "T1: Backup Server (SEPM 14.3)\n       NMS Workstation (SEMP 12.2)\nSP: NMS Workstation (SEMP 12.2)",
+      "date": "NaT"
+    },
+    {
+      "system": "Other",
+      "category": "Incident Timing System",
+      "equipment": "8.1 Workstation",
+      "login": "admin",
+      "password": "adm@1326",
+      "remark": "",
+      "date": ""
+    },
+    {
+      "system": "Other",
+      "category": "Incident Timing System",
+      "equipment": "8.2 Video extender",
+      "login": "Administrator",
+      "password": "password",
+      "remark": "ATEN 8900\nTX:192.168.0.201 (CR40)\nRX:192.168.0.211 (APM Depot)\n\nTX: 192.168.0.202 (CR40)\nRX: 192.168.0.212 (TDMO)\n\nTX: 192.168.0.203 (CR40)\nRX: 192.168.0.213 (IAC)",
+      "date": ""
+    },
+    {
+      "system": "Other",
+      "category": "Incident Timing System",
+      "equipment": "8.3 Network switch",
+      "login": "admin",
+      "password": "cisco",
+      "remark": "CSICO 3850D-24T",
+      "date": ""
+    },
+    {
+      "system": "Other",
+      "category": "GBMS",
+      "equipment": "9.1 GBMS Workstation Windows Login",
+      "login": "C3602",
+      "password": "12345678",
+      "remark": "",
+      "date": ""
+    }
+  ]
+}
