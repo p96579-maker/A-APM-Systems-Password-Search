@@ -1,0 +1,16 @@
+
+:root { --card-ring: 1px solid rgba(15,23,42,0.08); }
+body { line-height: 1.6; font-family: system-ui, sans-serif; }
+.kv { display:flex; gap:.5rem; align-items:baseline; flex-wrap:wrap; max-width:650px; }
+.kv strong { min-width: 200px; display:inline-block; }
+.cred-card { background:#f8fafc; border-radius: 1rem; padding: .9rem 1rem; border: var(--card-ring); }
+.cred-card + .cred-card { margin-top: .9rem; }
+.header-block { margin-bottom: .9rem; }
+.badge { display:inline-block; font-size:.75rem; font-weight:600; color:#4338CA; background:#EEF2FF; padding:.15rem .5rem; border-radius:.5rem; margin-bottom:.5rem; }
+.kv .emph { font-weight:700; font-size:1.05rem; }
+.remark-block { background:#f1f5f9; border-radius:.5rem; padding:.5rem .8rem; margin-top:.3rem; line-height:1.55; }
+.remark-block .dot-line { display:block; margin-left:1rem; position:relative; padding-left:.7rem; }
+.remark-block .dot-line::before { content:"•"; position:absolute; left:0; }
+@media (max-width: 480px){
+  .kv strong { min-width: 120px; }
+}
