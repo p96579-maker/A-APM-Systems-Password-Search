@@ -1,1 +1,36 @@
-const CACHE='apm-pass-search-v2';const SHELL=["./", "./index.html", "./styles.css", "./app.js", "./data.json", "./assets/data.json", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "https://cdn.tailwindcss.com"];self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)));self.skipWaiting();});self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.map(k=>k!==CACHE&&caches.delete(k)))));self.clients.claim();});self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;e.respondWith((async()=>{const c=await caches.open(CACHE);const m=await c.match(r);if(m)return m;try{const s=await fetch(r);c.put(r,s.clone());return s;}catch(err){if(r.mode==='navigate'){const i=await c.match('./index.html');if(i)return i;}throw err;}})());});
+
+const VERSION = 'v1.0.0';
+const CACHE_SHELL = 'apm-shell-' + VERSION;
+const SHELL_FILES = [
+  './',
+  './index.html',
+  './styles.css',
+  './app.js',
+  './assets/data.json',
+  './manifest.webmanifest'
+];
+self.addEventListener('install', (e)=> {
+  self.skipWaiting();
+  e.waitUntil(caches.open(CACHE_SHELL).then(c=>c.addAll(SHELL_FILES)));
+});
+self.addEventListener('activate', (e)=> {
+  e.waitUntil(
+    caches.keys().then(keys => Promise.all(keys.map(k => k.startsWith('apm-shell-') && k !== CACHE_SHELL ? caches.delete(k) : null)))
+      .then(()=> self.clients.claim())
+  );
+});
+// Network-first for data.json; cache-first for shell.
+self.addEventListener('fetch', (e)=>{
+  const url = new URL(e.request.url);
+  if (url.pathname.endsWith('/assets/data.json')) {
+    e.respondWith(
+      fetch(e.request).then(r=>{
+        const clone = r.clone();
+        caches.open(CACHE_SHELL).then(c=>c.put('./assets/data.json', clone));
+        return r;
+      }).catch(()=> caches.match('./assets/data.json'))
+    );
+    return;
+  }
+  e.respondWith(caches.match(e.request).then(r=> r || fetch(e.request)));
+});

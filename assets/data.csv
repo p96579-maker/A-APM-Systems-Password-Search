@@ -1,0 +1,412 @@
+﻿System,Category,Equipment,Login ID,Password,IP,Remark
+Communication System,CCTV,CCTV camera,root,manager,,Use onboard CCTV camera IP address to login 1)4 Car Train - 192.168.1xx.11-18 2)2 Car Train - 192.168.1xx.11-14 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,CCTV,Decoder,root,manager,,Use respective IP address to login 1)4 Car Train - 192.168.1xx.51-58 2)2 Car Train - 192.168.1xx.51-54 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,CCTV,VCA console (CCTV),depot,dpass,,(APM onboard CCTV only) Milestone login via VCA Console(connected VCA server) Server Address: http://192.168.1.221:95/ Authentication: Basic authentication
+Communication System,CCTV,NVR server,Administrator,P534admin,,"T1 Line, IP address: 192.168.8.6/16 SP Line, IP address: (TBA)"
+Communication System,CCTV,Smart CCTV Workstation,APM,Apmapm2020!,,For Smart CCTV console which maintained by Chubb of Electronics Team (All CCTV in Terminal plus APM onboard CCTV video)
+Communication System,Platform PIS/PAS,Wayside interface server 1,siriushk,M4CRqtID,,"1) For T1L / RRL Located at CR40 SER, Old Depot IP address: 192.168.7.3 2) For SPL Located at 1P005 SPL SER (New SER), Old Depot IP address: 192.168.8.3"
+Communication System,Platform PIS/PAS,Wayside interface server 2,siriushk,Umjcflnl,,"1) For T1L / RRL Located at CR40 SER, Old Depot IP address: 192.168.7.4 2) For SPL Located at 1P005 SPL SER (New SER), Old Depot IP address: 192.168.8.4"
+Communication System,Platform PIS/PAS,EH DMS controller,siriushk,rBU52nG3,,IP address - 192.168.7.20
+Communication System,Platform PIS/PAS,WH DMS controller,siriushk,4z6Spcxh,,IP address - 192.168.7.40
+Communication System,Platform PIS/PAS,MF DMS controller,siriushk,rp.fa1nW,,IP address - 192.168.7.100
+Communication System,Platform PIS/PAS,Platform DMS (New for P534),super,super2006,,IP address 1)192.168.1.18-21 @ EHD 2)192.168.1.38-41 @ WHA 3)10.1.7.41-52 @ WHD 4)10.1.7.61-72 @ WHR 5)10.1.7.81-92 @ MFA 6)10.1.7.101-112 @ MFR
+Communication System,Platform PIS/PAS,Platform PA AMP,admin,admin,,1)IP address - 192.168.8.11 @ EH 2)IP address - 192.168.8.12 @ WH 3)IP address - 192.168.8.13@MF 4)IP address - 192.168.8.14 @ T1A 5)IP address - 192.168.8.16 @ Pier
+Communication System,Platform PIS/PAS,T1A DMS controller,admin,admin,,Controller IP address - 192.168.8.24 Digital Output Device IP address - 192.168.8.34
+Communication System,Platform PIS/PAS,Pier DMS Controller,admin,admin,,Controller IP address - 192.168.8.26 Digital Output Device IP address - 192.168.8.36
+Communication System,Platform PIS/PAS,FBTC/CBTC DMS Changeover Server (NVR Server in 1P050),Administrator,P534admin,,For SPL DMS changeover from FBTC to CBTC IP Address: 192.168.101.7
+Communication System,Comms,AP,root,manager,,Please refer to the onboard comms equipment IP address list IP address - 192.168.1xx.1 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,Comms,PEI,admin,admin,,Please refer to the onboard comms equipment IP address list 1)4Car Train - 192.168.1xx.21-28 2)2Car Train - 192.168.1xx.21-24 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,Comms,TCX,admin,admin,,Please refer to the onboard comms equipment IP address list IP address - 192.168.1xx.2 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,Comms,Onboard PA amplifier,admin,admin,,Please refer to the onboard comms equipment IP address list IP address - 192.168.1xx.3 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,Comms,Onboard DMS,root,erphost,,Please refer to the onboard comms equipment IP address list 1)4Car Train - 192.168.1xx.31-38 2)2Car Train - 192.168.1xx.31-34 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,Comms,"Comms NMS, Windows 10 Login","1) admin, for Windows 10 login 2) admin, for SyncUP Time Client","1) manager, for Windows 10 login 2) admin, for SyncUp Time Client",,"Please refer to the onboard comms equipment IP address list 1)192.168.8.7 for T1,RR @ BCR 2)192.168.8.10 for SP @ BCR 3) 192.168.1.108/118.35 or 192.168.3.100 or 192.168.9.9 for T1, RR @ CCR 4) 192.168.9.9 for T1, SP @ CCR"
+Communication System,Comms,"Comms NMS, SyncUp Time Client Login",admin,admin,,
+Communication System,Comms,Comms console (IPPA Paging Station),admin,admin,,"Please refer to the onboard comms equipment IP address list 1) DCR: 192.168.9.1 @ T1 / 192.168.9.2 @ RR / 192.168.9.1 @ SP 2) CCR: 192.168.9.11 @ T1 / 192.168.9.12 @ RR / 192.168.9.11 @ SP 3) TDMO: 192.168.9.21, 192.168.9.2 @ T1 / 192.9.25192.168.9.22 @ RR / 192.168.9.21 @ SP"
+Communication System,Comms,Onboard Ethernet Network Switch,root admin,manager,,Please refer to the onboard comms equipment IP address list 1)4Car Train - 192.168.1xx.41-44 2)2Car Train - 192.168.1xx.41-42 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5
+Communication System,Comms,Wayside AP,root,manager,,Please refer to the IP address assignemnt for AP in O&M manual 1)192.168.10.1-46 @ T1 2)192.168.11.1-11 @ RR 3)192.168.12.1-2 @ Depot 4)192.168.13.1-10 @ SP 5)192.168.13.11 @ SP Depot 6)192.168.13.12 @ Tee off to New Depot 7)192.168.13.13-14 @ New Depot
+Communication System,Comms,T1L Communication Exchange Server (CXS),Not provided by supplier,Not provided by supplier,,"CXS1 - 192.168.8.1 CXS2 - 192.168.8.2 Not root/manager, not admin/admin"
+Communication System,Comms,SPL Communication Exchange Server (CXS),Not provided by supplier,Not provided by supplier,,"CXS1 - 192.168.8.1/16 CXS2 - 192.168.8.2/16 Not root/manager, not admin/admin"
+Communication System,Comms,Core Switch,admin,manager,,T1 line CS1&2: 192.168.8.200 SP line CS1&2: 192.168.8.200 192.168.8.230
+Communication System,Comms,Access Switch,admin,manager,,T1 line AS1: 192.168.8.202 T1 line AS2: 192.168.8.203 T1 line AS5: 192.168.8.206 T1 line AS6: 192.168.8.207 T1 line AS7: 192.168.8.208 (ENS team asset) SP line AS1: 192.168.8.202 192.168.8.232 SP line AS2: 192.168.8.203 192.168.8.233 CCR T1L AS1: 192.168.8.220 CCR SPL AS1: 192.168.8.220 192.168.8.250
+Communication System,Comms,Record Server,Administrator,manager,,T1 line Record Server: 192.168.8.10 SP line Record Server: 192.168.8.11
+Communication System,Comms,New NMS Server,"1) admin, for Windows Server login 2) admin, for H3C iMC","1) P@ssw0rd, for Windows Server login 2) Pwd@12345, for H3C iMC",,T1 line New NMS Server: 192.168.8.241 SP line New NMS Server: 192.168.8.242
+Communication System,Comms - CCR,COMMS NMS,admin (windows) admin (SyncUP),APMv6[COMMS! admin,192.168.9.9,
+Communication System,Comms - CCR,Comms Console,admin,APMv6[COMMS!,192.168.9.11,
+Communication System,Comms - CCR,Comms Console,admin,APMv6[COMMS!,192.168.9.12,
+Communication System,Comms - CCR,Echo PA Amplifier,admin,APMv6[COMMS!,192.168.9.15,
+Communication System,Comms - CCR,Access Switch #1/#2,admin,APMv6[COMMS!,192.168.8.220,
+Communication System,Comms - IAC,Comms Console,admin,APMv6[COMMS!,192.168.9.31,
+Communication System,Comms - IAC,Comms Console,admin,APMv6[COMMS!,192.168.9.32,
+Communication System,Comms - IAC,Comms Console,admin,APMv6[COMMS!,192.168.9.33,
+Communication System,Comms - IAC,Echo PA Amplifier,admin,APMv6[COMMS!,192.168.9.35,
+Communication System,Comms - IAC,Echo PA Amplifier,admin,APMv6[COMMS!,192.168.9.36,
+Communication System,Comms - IAC,Access Switch #1/#2,admin,aPMv6[COMMS!,192.168.8.221,
+Communication System,Comms - IAC,Access Switch #1/#2,admin,APMv6[COMMS!,192.168.8.221,
+Communication System,Comms - CR40,Core Switch #1/#2/#3,admin,APMv6[COMMS!,192.168.8.200,
+Communication System,Comms - CR40,Access Switch #1,admin,APMv6[COMMS!,192.168.8.202,
+Communication System,Comms - CR40,Access Switch #2,admin,APMv6[COMMS!,192.168.8.203,
+Communication System,Comms - CR40,Server,admin (windows) admin (H3C iMC),P@ssw0rd Pwd@12345,192.168.8.241,VLAN ID : 10
+Communication System,Comms - CR40,Server,,,192.168.8.243,
+Communication System,Comms - CR40,CXS1,Not provided by supplier,Not provided by supplier,192.168.8.1,
+Communication System,Comms - CR40,CXS2,Not provided by supplier,Not provided by supplier,192.168.8.2,
+Communication System,Comms - BCR,COMMS NMS,admin (windows) admin (SyncUP),APMv6[COMMS! admin,192.168.8.7,
+Communication System,Comms - BCR,COMMS NMS,admin (windows) admin (SyncUP),APMv6[COMMS! admin,192.168.8.10,
+Communication System,Comms - BCR,Comms Console (item missing),admin,,192.168.9.1,
+Communication System,Comms - BCR,Comms Console,admin,APMv6[COMMS!,192.168.9.6,
+Communication System,Comms - BCR,Comms Console,admin,APMv6[COMMS!,192.168.9.1,
+Communication System,Comms - BCR,Echo PA Amplifier,,,192.168.9.8,
+Communication System,Comms - BCR,Echo PA Amplifier,,,192.168.9.5,
+Communication System,Comms - BIAC,Comms Console,admin,APMv6[COMMS!,192.168.9.41,
+Communication System,Comms - BIAC,Comms Console,admin,APMv6[COMMS!,192.168.9.42,
+Communication System,Comms - BIAC,Comms Console,admin,APMv6[COMMS!,192.168.9.43,
+Communication System,Comms - BIAC,Echo PA Amplifier,admin,APMv6[COMMS!,192.168.9.45,
+Communication System,Comms - BIAC,Echo PA Amplifier,admin,APMv6[COMMS!,192.168.9.46,
+Communication System,Comms - BIAC,Access Switch #1/#2,admin,APMv6[COMMS!,192.168.8.222,
+Communication System,Comms - 1P050,Core Switch #1/#2/#3,admin,APMv6[COMMS!,192.168.8.230,
+Communication System,Comms - 1P050,Access Switch #1,admin,APMv6[COMMS!,192.168.8.232,
+Communication System,Comms - 1P050,Access Switch #2,admin,APMv6[COMMS!,192.168.8.233,
+Communication System,Comms - 1P050,Server,admin (windows) admin (H3C iMC),P@ssw0rd Pwd@12345,192.168.8.242,VLAN ID : 10
+Communication System,Comms - 1P050,Server,,,192.168.8.244,
+Communication System,Comms - 1P050,CXS1,Not provided by supplier,Not provided by supplier,192.168.8.1,
+Communication System,Comms - 1P050,CXS2,Not provided by supplier,Not provided by supplier,192.168.8.2,
+Communication System,Comms - Tunnnel AP,Wireless Access Point (AP1-48),root,APMv6COMMS!,192.168.10.1,
+Communication System,Comms - Tunnnel AP,Wireless Access Point (RR-AP1-11),root,APMv6COMMS!,192.168.11.1,
+Communication System,Comms - Tunnnel AP,Wireless Access Point (SP-AP1-14),root,APMv6COMMS!,192.168.13.1,
+Communication System,Comms - Vehicle 5,Access Point,root,APMv6COMMS!,192.168.105.1,
+Communication System,Comms - Vehicle 5,Controller,admin,APMv6[COMMS!,192.168.105.2,
+Communication System,Comms - Vehicle 5,Amplifier,admin,APMv6[COMMS!,192.168.105.3,
+Communication System,Comms - Vehicle 5,(#1-8),admin,APMv6[COMMS!,192.168.105.21,
+Communication System,Comms - Vehicle 5,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.105.41,
+Communication System,Comms - Vehicle 5,Ethernet Switch at MC2*,admin,APMv6COMMS,192.168.105.42,
+Communication System,Comms - Vehicle 5,Ethernet Switch at MC3*,admin,APMv6COMMS,192.168.105.43,
+Communication System,Comms - Vehicle 5,Ethernet Switch at MC4,admin,APMv6[COMMS!,192.168.105.44,
+Communication System,Comms - Vehicle 6,Access Point,root,APMv6COMMS!,192.168.106.1,
+Communication System,Comms - Vehicle 6,Controller,admin,APMv6[COMMS!,192.168.106.2,
+Communication System,Comms - Vehicle 6,Amplifier,admin,APMv6[COMMS!,192.168.106.3,
+Communication System,Comms - Vehicle 6,(#1-8),admin,APMv6[COMMS!,192.168.106.21,
+Communication System,Comms - Vehicle 6,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.106.41,
+Communication System,Comms - Vehicle 6,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.106.42,
+Communication System,Comms - Vehicle 6,Ethernet Switch at MC3,admin,APMv6[COMMS!,192.168.106.43,
+Communication System,Comms - Vehicle 6,Ethernet Switch at MC4*,admin,APMv6COMMS,192.168.106.44,
+Communication System,Comms - Vehicle 7,Access Point,root,APMv6COMMS!,192.168.107.1,
+Communication System,Comms - Vehicle 7,Controller,admin,APMv6[COMMS!,192.168.107.2,
+Communication System,Comms - Vehicle 7,Amplifier,admin,APMv6[COMMS!,192.168.107.3,
+Communication System,Comms - Vehicle 7,(#1-8),admin,APMv6[COMMS!,192.168.107.21,
+Communication System,Comms - Vehicle 7,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.107.41,
+Communication System,Comms - Vehicle 7,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.107.42,
+Communication System,Comms - Vehicle 7,Ethernet Switch at MC3,admin,APMv6[COMMS!,192.168.107.43,
+Communication System,Comms - Vehicle 7,Ethernet Switch at MC4*,admin,APMv6COMMS,192.168.107.44,
+Communication System,Comms - Vehicle 8,Access Point,root,APMv6COMMS!,192.168.108.1,
+Communication System,Comms - Vehicle 8,Controller,admin,APMv6[COMMS!,192.168.108.2,
+Communication System,Comms - Vehicle 8,Amplifier,admin,APMv6[COMMS!,192.168.108.3,
+Communication System,Comms - Vehicle 8,(#1-8),admin,APMv6[COMMS!,192.168.108.21,
+Communication System,Comms - Vehicle 8,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.108.41,
+Communication System,Comms - Vehicle 8,Ethernet Switch at MC2*,admin,APMv6COMMS,192.168.108.42,
+Communication System,Comms - Vehicle 8,Ethernet Switch at MC3,admin,APMv6[COMMS!,192.168.108.43,
+Communication System,Comms - Vehicle 8,Ethernet Switch at MC4*,admin,APMv6COMMS,192.168.108.44,
+Communication System,Comms - Vehicle 9,Access Point,root,APMv6COMMS!,192.168.109.1,
+Communication System,Comms - Vehicle 9,Controller,admin,APMv6[COMMS!,192.168.109.2,
+Communication System,Comms - Vehicle 9,Amplifier,admin,APMv6[COMMS!,192.168.109.3,
+Communication System,Comms - Vehicle 9,(#1-8),admin,APMv6[COMMS!,192.168.109.21,
+Communication System,Comms - Vehicle 9,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.109.41,
+Communication System,Comms - Vehicle 9,Ethernet Switch at MC2,admin,no ping respons!!,192.168.109.42,
+Communication System,Comms - Vehicle 9,Ethernet Switch at MC3,admin,APMv6[COMMS!,192.168.109.43,
+Communication System,Comms - Vehicle 9,Ethernet Switch at MC4,admin,APMv6[COMMS!,192.168.109.44,
+Communication System,Comms - Vehicle 10,Access Point,root,APMv6COMMS!,192.168.110.1,
+Communication System,Comms - Vehicle 10,Controller,admin,APMv6[COMMS!,192.168.110.2,
+Communication System,Comms - Vehicle 10,Amplifier,admin,APMv6[COMMS!,192.168.110.3,
+Communication System,Comms - Vehicle 10,(#1-4),admin,APMv6[COMMS!,192.168.110.21,
+Communication System,Comms - Vehicle 10,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.110.41,
+Communication System,Comms - Vehicle 10,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.110.42,
+Communication System,Comms - Vehicle 11,Access Point,root,APMv6COMMS!,192.168.111.1,
+Communication System,Comms - Vehicle 11,Controller,admin,APMv6[COMMS!,192.168.111.2,
+Communication System,Comms - Vehicle 11,Amplifier,admin,APMv6[COMMS!,192.168.111.3,
+Communication System,Comms - Vehicle 11,(#1-4),admin,APMv6[COMMS!,192.168.111.21,
+Communication System,Comms - Vehicle 11,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.111.41,
+Communication System,Comms - Vehicle 11,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.111.42,
+Communication System,Comms - Vehicle 12,Access Point,root,APMv6COMMS!,192.168.112.1,
+Communication System,Comms - Vehicle 12,Controller,admin,APMv6[COMMS!,192.168.112.2,
+Communication System,Comms - Vehicle 12,Amplifier,admin,APMv6[COMMS!,192.168.112.3,
+Communication System,Comms - Vehicle 12,(#1-4),admin,APMv6[COMMS!,192.168.112.21,
+Communication System,Comms - Vehicle 12,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.112.41,
+Communication System,Comms - Vehicle 12,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.112.42,
+Communication System,Comms - Vehicle 13,Access Point,root,APMv6COMMS!,192.168.113.1,
+Communication System,Comms - Vehicle 13,Controller,admin,APMv6[COMMS!,192.168.113.2,
+Communication System,Comms - Vehicle 13,Amplifier,admin,APMv6[COMMS!,192.168.113.3,
+Communication System,Comms - Vehicle 13,(#1-4),admin,APMv6[COMMS!,192.168.113.21,
+Communication System,Comms - Vehicle 13,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.113.41,
+Communication System,Comms - Vehicle 13,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.113.42,
+Communication System,Comms - Vehicle 14,Access Point,root,APMv6COMMS!,192.168.114.1,
+Communication System,Comms - Vehicle 14,Controller,admin,APMv6[COMMS!,192.168.114.2,
+Communication System,Comms - Vehicle 14,Amplifier,admin,APMv6[COMMS!,192.168.114.3,
+Communication System,Comms - Vehicle 14,(#1-4),admin,APMv6[COMMS!,192.168.114.21,
+Communication System,Comms - Vehicle 14,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.114.41,
+Communication System,Comms - Vehicle 14,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.114.42,
+Communication System,Comms - Vehicle 15,Access Point,root,APMv6COMMS!,192.168.115.1,
+Communication System,Comms - Vehicle 15,Controller,admin,APMv6[COMMS!,192.168.115.2,
+Communication System,Comms - Vehicle 15,Amplifier,admin,APMv6[COMMS!,192.168.115.3,
+Communication System,Comms - Vehicle 15,(#1-4),admin,APMv6[COMMS!,192.168.115.21,
+Communication System,Comms - Vehicle 15,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.115.41,
+Communication System,Comms - Vehicle 15,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.115.42,
+Communication System,Comms - Vehicle 16,Access Point,root,APMv6COMMS!,192.168.116.1,
+Communication System,Comms - Vehicle 16,Controller,admin,APMv6[COMMS!,192.168.116.2,
+Communication System,Comms - Vehicle 16,Amplifier,admin,APMv6[COMMS!,192.168.116.3,
+Communication System,Comms - Vehicle 16,(#1-4),admin,APMv6[COMMS!,192.168.116.21,
+Communication System,Comms - Vehicle 16,Ethernet Switch at MC1*,admin,APMv6COMMS,192.168.116.41,
+Communication System,Comms - Vehicle 16,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.116.42,
+Communication System,Comms - Vehicle 17,Access Point,root,APMv6COMMS!,192.168.117.1,
+Communication System,Comms - Vehicle 17,Controller,admin,APMv6[COMMS!,192.168.117.2,
+Communication System,Comms - Vehicle 17,Amplifier,admin,APMv6[COMMS!,192.168.117.3,
+Communication System,Comms - Vehicle 17,(#1-4),admin,APMv6[COMMS!,192.168.117.21,
+Communication System,Comms - Vehicle 17,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.117.41,
+Communication System,Comms - Vehicle 17,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.117.42,
+Communication System,Comms - Vehicle 18,Access Point,root,APMv6COMMS!,192.168.118.1,
+Communication System,Comms - Vehicle 18,Controller,admin,APMv6[COMMS!,192.168.118.2,
+Communication System,Comms - Vehicle 18,Amplifier,admin,APMv6[COMMS!,192.168.118.3,
+Communication System,Comms - Vehicle 18,(#1-4),admin,APMv6[COMMS!,192.168.118.21,
+Communication System,Comms - Vehicle 18,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.118.41,
+Communication System,Comms - Vehicle 18,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.118.42,
+Communication System,Comms - Vehicle 19,Access Point,root,APMv6COMMS!,192.168.119.1,
+Communication System,Comms - Vehicle 19,Controller,admin,APMv6[COMMS!,192.168.119.2,
+Communication System,Comms - Vehicle 19,Amplifier,admin,APMv6[COMMS!,192.168.119.3,
+Communication System,Comms - Vehicle 19,(#1-4),admin,APMv6[COMMS!,192.168.119.21,
+Communication System,Comms - Vehicle 19,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.119.41,
+Communication System,Comms - Vehicle 19,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.119.42,
+Communication System,Comms - Vehicle 20,Access Point,root,APMv6COMMS!,192.168.120.1,
+Communication System,Comms - Vehicle 20,Controller,admin,APMv6[COMMS!,192.168.120.2,
+Communication System,Comms - Vehicle 20,Amplifier,admin,APMv6[COMMS!,192.168.120.3,
+Communication System,Comms - Vehicle 20,(#1-8),admin,APMv6[COMMS!,192.168.120.21,
+Communication System,Comms - Vehicle 20,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.120.41,
+Communication System,Comms - Vehicle 20,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.120.42,
+Communication System,Comms - Vehicle 20,Ethernet Switch at MC3,admin,APMv6[COMMS!,192.168.120.43,
+Communication System,Comms - Vehicle 20,Ethernet Switch at MC4,admin,APMv6[COMMS!,192.168.120.44,
+Communication System,Comms - Vehicle 21,Access Point,root,APMv6COMMS!,192.168.121.1,
+Communication System,Comms - Vehicle 21,Controller,admin,APMv6[COMMS!,192.168.121.2,
+Communication System,Comms - Vehicle 21,Amplifier,admin,APMv6[COMMS!,192.168.121.3,
+Communication System,Comms - Vehicle 21,(#1-4),admin,APMv6[COMMS!,192.168.121.21,
+Communication System,Comms - Vehicle 21,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.121.41,
+Communication System,Comms - Vehicle 21,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.121.42,
+Communication System,Comms - Vehicle 22,Access Point,root,APMv6COMMS!,192.168.122.1,
+Communication System,Comms - Vehicle 22,Controller,admin,APMv6[COMMS!,192.168.122.2,
+Communication System,Comms - Vehicle 22,Amplifier,admin,APMv6[COMMS!,192.168.122.3,
+Communication System,Comms - Vehicle 22,(#1-4),admin,APMv6[COMMS!,192.168.122.21,
+Communication System,Comms - Vehicle 22,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.122.41,
+Communication System,Comms - Vehicle 22,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.122.42,
+Communication System,Comms - Vehicle 23,Access Point,root,APMv6COMMS!,192.168.123.1,
+Communication System,Comms - Vehicle 23,Controller,admin,APMv6[COMMS!,192.168.123.2,
+Communication System,Comms - Vehicle 23,Amplifier,admin,APMv6[COMMS!,192.168.123.3,
+Communication System,Comms - Vehicle 23,(#1-8),admin,APMv6[COMMS!,192.168.123.21,
+Communication System,Comms - Vehicle 23,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.123.41,
+Communication System,Comms - Vehicle 23,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.123.42,
+Communication System,Comms - Vehicle 23,Ethernet Switch at MC3,admin,APMv6[COMMS!,192.168.123.43,
+Communication System,Comms - Vehicle 23,Ethernet Switch at MC4,admin,APMv6[COMMS!,192.168.123.44,
+Communication System,Comms - Vehicle 24,Access Point,root,APMv6COMMS!,192.168.124.1,
+Communication System,Comms - Vehicle 24,Controller,admin,APMv6[COMMS!,192.168.124.2,
+Communication System,Comms - Vehicle 24,Amplifier,admin,APMv6[COMMS!,192.168.124.3,
+Communication System,Comms - Vehicle 24,(#1-4),admin,APMv6[COMMS!,192.168.124.21,
+Communication System,Comms - Vehicle 24,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.124.41,
+Communication System,Comms - Vehicle 24,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.124.42,
+Communication System,Comms - Vehicle 25,Access Point,root,APMv6COMMS!,192.168.125.1,
+Communication System,Comms - Vehicle 25,Controller,admin,APMv6[COMMS!,192.168.125.2,
+Communication System,Comms - Vehicle 25,Amplifier,admin,APMv6[COMMS!,192.168.125.3,
+Communication System,Comms - Vehicle 25,(#1-4),admin,APMv6[COMMS!,192.168.125.21,
+Communication System,Comms - Vehicle 25,Ethernet Switch at MC1,admin,APMv6[COMMS!,192.168.125.41,
+Communication System,Comms - Vehicle 25,Ethernet Switch at MC2,admin,APMv6[COMMS!,192.168.125.42,
+Other Systems,Incident Timing System,Workstation,admin,adm@1326,,
+Other Systems,Incident Timing System,Video extender,Administrator,password,,ATEN 8900 TX:192.168.0.201 (CR40) RX:192.168.0.211 (APM Depot) TX: 192.168.0.202 (CR40) RX: 192.168.0.212 (TDMO) TX: 192.168.0.203 (CR40) RX: 192.168.0.213 (IAC)
+Other Systems,Incident Timing System,Network switch,admin,cisco,,CSICO 3850D-24T
+Other Systems,GBMS,GBMS Workstation Windows Login,C3602,12345678,,
+PSD System,T1 Shun Hing,Panasonic PSD PLC,pewish,vipvip,,PEDC ScreenDoor software for PLC
+PSD System,T1 Shun Hing,Panasonic PSD workstation,user,(blank),,Windows 10 login account
+PSD System,T1 Shun Hing,SHSI(Shun Hing) PSD MMI,pewish,vipvip,,PSD MMI Program
+PSD System,SPL CNIM,CNIM PSD Server,cnimhk,apm@2013,,IP: 192.168.50.65
+PSD System,SPL CNIM,CNIM PSD Software,administrator,apm@2013,,
+PSD System,SPL CNIM,CNIM PSD DCU Software,(blank),troll,,For CNIM PSD DCU Configuration
+PSD System,SPL MHI,MHI PSD Server,,123456,,IP: 192.168.50.101
+PSD System,SPL PSD Integrated,Merged MHI & CNIM workstation windows (by 3602),user,1qaz@WSX,,Users Account (IP: 192.168.62.100)
+PSD System,SPL PSD Integrated,Merged MHI & CNIM workstation windows (by 3602),vncuser,3edc$RFV5tgb,,Administrator Account
+SCADA System,SCADA Software,SCADA software,engineer,engineer,,User 1
+SCADA System,SCADA Software,SCADA software,T1OP,T1OP,,User 2
+SCADA System,SCADA Software,SCADA software,RROP,RROP,,User 3
+SCADA System,SCADA Software,SCADA Windows login,Administrator,Apm00000,,Server Engineer Level
+SCADA System,SCADA Software,SCADA Windows login,SCADA,SCADA,,Server Operator Level
+SCADA System,SCADA Software,SCADA Windows login,Engineer,Engineer,,Workstation Engineer Level
+SCADA System,SCADA Software,SCADA Windows login,SPOP,SPOP,,Workstation Operator Level
+SCADA System,SCADA Software,FTP client,ntpupdate,ntpupdate,,FTP server: /FLASH0/wwwroot/conf/NTP FTP client: /FLASH0/wwwroot/conf/NTP/customrules
+SCADA System,CCR,APM SCADA Console,Engineer SPOP,Engineer SPOP,192.168.3.109,
+SCADA System,CCR,APM SCADA Console,Engineer SPOP,Engineer SPOP,192.168.3.110,
+SCADA System,CCR,APM SCADA Console,Engineer SPOP,Engineer SPOP,10.22.91.109,
+SCADA System,IAC,APM SCADA Console,Engineer SPOP,Engineer SPOP,192.168.3.107,
+SCADA System,IAC,APM SCADA Console,Engineer SPOP,Engineer SPOP,192.168.3.108,
+SCADA System,IAC,APM SCADA Console,Engineer SPOP,Engineer SPOP,10.22.91.107,
+SCADA System,BCR,APM SCADA Console,Engineer,APMv6[SCADA!,192.168.3.101,
+SCADA System,BCR,APM SCADA Console,Engineer,APMv6[SCADA!,192.168.3.102,
+SCADA System,BCR,APM SCADA Console,Engineer,APMv6[SCADA!,10.22.91.101,
+SCADA System,BIAC,APM SCADA Console,Engineer SPOP,Engineer SPOP,192.168.3.105,
+SCADA System,BIAC,APM SCADA Console,Engineer SPOP,Engineer SPOP,192.168.3.106,
+SCADA System,BIAC,APM SCADA Console,Engineer SPOP,Engineer SPOP,10.22.91.105,
+SCADA System,CR40,Server 1,Administrator SCADA,Apm00000 SCADA,192.168.3.201,
+SCADA System,CR40,Server 2,Administrator SCADA,Apm00000 SCADA,192.168.3.202,
+SCADA System,1P050,Server 1,Administrator SCADA,Apm00000 SCADA,10.22.91.201,
+SCADA System,1P050,Server 2,Administrator SCADA,Apm00000 SCADA,10.22.91.202,
+SCADA System,RTU & Unknown device,RTU-A,,,192.168.3.3,Ethernet to RS485 Gateway of RTU-A & B & C
+SCADA System,RTU & Unknown device,RTU-B,,,192.168.3.3,Ethernet to RS485 Gateway of RTU-A & B & C
+SCADA System,RTU & Unknown device,RTU-C,,,192.168.3.3,Ethernet to RS485 Gateway of RTU-A & B & C
+SCADA System,RTU & Unknown device,RTU-D,,,192.168.3.4,
+SCADA System,RTU & Unknown device,RTU-E,,,192.168.3.5,
+SCADA System,RTU & Unknown device,RTU-F,,,192.168.3.6,
+SCADA System,RTU & Unknown device,RTU-G,,,192.168.3.7,
+SCADA System,RTU & Unknown device,RTU-H,,,192.168.3.8,
+SCADA System,RTU & Unknown device,RTU-I,,,192.168.3.9,
+SCADA System,RTU & Unknown device,RTU-J,,,192.168.3.9,
+SCADA System,RTU & Unknown device,Unknown,,,192.168.3.13,CR40_AS1 1/0/21
+SCADA System,RTU & Unknown device,Unknown,,,192.168.3.14,CR40_AS1 1/0/21
+SCADA System,RTU & Unknown device,Unknown,,,192.168.3.15,CR40_AS2 1/0/21
+SCADA System,RTU & Unknown device,Unknown,,,192.168.3.16,CR40_AS2 1/0/21
+SCADA System,RTU & Unknown device,Unknown,,,192.168.3.116,BIAC-T1-LAN 1/0/12
+SCADA System,RTU & Unknown device,RTU-X,,,10.22.91.21,
+SCADA System,RTU & Unknown device,RTU-Y,,,10.22.91.22,
+SCADA System,RTU & Unknown device,RTU-Z,,,10.22.91.23,
+SCADA System,RTU & Unknown device,RTU-W,,,10.22.91.31,
+SCADA System,RTU & Unknown device,RTU-V,,,10.22.91.31,
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Server,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Server,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Server,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Database Server,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Database Server,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Database Server,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MSA Data Array,monitor,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MSA Data Array,manage,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Backup Server,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Backup Server,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Backup Server,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Diagnostic Server,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Diagnostic Server,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Diagnostic Server,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Data Recorder,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Data Recorder,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Data Recorder,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL CA Server,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL CA Server,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL CA Server,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Workstation,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Workstation,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Workstation,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Workstation (IAC),HKuser,HKuser10!,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Workstation (IAC),HKadmin,HKadmin10!,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ATS Workstation (IAC),sysadmin,HKadmin10!,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,ATS Software,Admin,HKadmin10!,,ATS: Admidmistrative account for ATS Workstation
+Signalling System(CBTC),CBTC - Computer,ATS Software,ABD-T1L-OC,ABD-T1L-OC!,,ATS: APMOC T1L account
+Signalling System(CBTC),CBTC - Computer,ATS Software,ABD-SPL-OC,ABD-SPL-OC!,,ATS: APMOC SPL account
+Signalling System(CBTC),CBTC - Computer,ATS Software,ABD-AM,ABD-AM!,,ATS: APMAM account (T1 & SP)
+Signalling System(CBTC),CBTC - Computer,ATS Software,T1L-MC-TH,T1L-MC-TH?!,,ATS: APMMC T1L TH account
+Signalling System(CBTC),CBTC - Computer,ATS Software,SPL-MC-TH,SPL-MC-TH?!,,ATS: APMMC SPL TH account
+Signalling System(CBTC),CBTC - Computer,ATS Software,T1L-MC,T1L-MC?!,,ATS: APMMC T1L NTH account
+Signalling System(CBTC),CBTC - Computer,ATS Software,SPL-MC,SPL-MC?!,,ATS: APMMC SPL NTH account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Diagnostic Workstation,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Diagnostic Workstation,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Diagnostic Workstation,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MIMIC Workstation,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MIMIC Workstation,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MIMIC Workstation,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MIMIC Workstation (IAC),HKuser,HKuser10!,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MIMIC Workstation (IAC),HKadmin,HKadmin10!,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL MIMIC Workstation (IAC),sysadmin,HKadmin10!,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL LATS Workstation,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL LATS Workstation,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL LATS Workstation,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL LATS Workstation (IAC),HKuser,HKuser10!,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL LATS Workstation (IAC),HKadmin,HKadmin10!,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL LATS Workstation (IAC),sysadmin,HKadmin10!,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Trusted NMS Workstation,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Trusted NMS Workstation,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL Trusted NMS Workstation,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ZC Diagnostic Collector,HKuser,APMv6[ml,,OS: User account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ZC Diagnostic Collector,HKadmin,APMv6[ml,,OS: Administrative account
+Signalling System(CBTC),CBTC - Computer,T1&RRL or SPL ZC Diagnostic Collector,sysadmin,APMv6[ml,,OS: Built-in administrative account
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),LAN switch 1 in CR40 server room,admin,HKadmin10!,,Name: CR40LANSW1 Management IP:172.21.1.249/16
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),LAN switch 2 in CR40 server room,manager,HKadmin10!,,Name: CR40LANSW2 Management IP:172.21.1.250/16
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Firewall 1 in CR40 server room,admin,HKadmin10!,,"Name:CR40_FW1 Cluster Name: CR40_FW, Password: CR40_FW Managent IP: 172.21.1.200/16"
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Firewall 2 in CR40 server room,admin,HKadmin10!,,"Name:CR40_FW1 Cluster Name: CR40_FW, Password: CR40_FW Managent IP: 172.21.1.200/16"
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),External Interface Switch 01 in CR40 server room,admin,HKadmin10!,,Name: CR40BRD1 Management IP: 172.22.82.3/27
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),External Interface Switch 02 in CR40 server room,admin,HKadmin10!,,Name: CR40BRD2 Management IP: 172.22.82.4/27
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Router 1 in CR40 server room,admin,private,,Name: CR40_RTR1 Management IP: 172.22.74.1/24
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Router 2 in CR40 server room,admin,private,,Name: CR40_RTR2 Management IP: 172.22.74.2/25
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Router 3 in CR40 server room,admin,HKadmin10!,,Name: CR40_RTR3 Management IP: 172.22.74.3/26
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Router 4 in CR40 server room,admin,HKadmin10!,,Name: CR40_RTR4 Management IP: 172.22.74.4/27
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Class 1 BB Switch 1 in CR40 server room,admin,HKadmin10!,,Name: CR40_BB1_SW1 Management IP: 172.22.72.241/24
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Class 2 BB Switch 1 in CR40 server room,admin,HKadmin10!,,Name: CR40_BB2_SW1 Management IP: 172.21.253/16
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Class 2 BB Switch 2 in CR40 server room,admin,HKadmin10!,,Name: CR40_BB2_SW2 Management IP: 172.21.254/16
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),SD11 in CR40 server room,root,p,,Physical IP address: 172.22.76.2
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),SD12 in CR40 server room,root,p,,Physical IP address: 172.22.76.3
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),SD Loader in CR40 server room,root,p,,Physical IP address: 172.22.1.210
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Untrusted BB Switch 1 in CR40 server room,admin,HKadmin10!,,Name: CR40_UBB_SW1 Management IP: 172.22.176.1/17
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Untrusted BB Switch 2 in CR40 server room,admin,HKadmin10!,,Name: CR40_UBB_SW2 Management IP: 172.22.176.2/17
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Inter-ring Switch 1 in CR40 server room,admin,HKadmin10!,,Name: CR40_IR_SW1 Management IP: 172.22.184.1/17
+Signalling System(CBTC),CBTC - Network Device (CR40 server room),Inter-ring Switch 2 in CR40 server room,admin,HKadmin10!,,Name: CR40_IR_SW2 Management IP: 172.22.184.3/17
+Signalling System(CBTC),CBTC - Network Device (EH Computer room),LAN switch 1 in EH Computer room,admin,HKadmin10!,,Name: APMLANSW1 Management IP: 172.21.1.241/16
+Signalling System(CBTC),CBTC - Network Device (EH Computer room),LAN switch 2 in EH Computer room,admin,HKadmin10!,,Name: APMLANSW2 Management IP: 172.21.1.242/17
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),LAN switch 1 in 1MC074 room,HKadmin,HKadmin10!,,Name: MCLANSW1 Management IP: 172.21.251/16
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),LAN switch 2 in 1MC074 room,HKadmin,HKadmin10!,,Name: MCLANSW2 Management IP: 172.21.252/16
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Router 1 in 1MC074 room,admin,private,,Name: MC_RTR1 Management IP: 172.22.74.5/24
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Router 2 in 1MC074 room,admin,private,,Name: MC_RTR2 Management IP: 172.22.74.6/25
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Router 3 in 1MC074 room,admin,HKadmin10!,,Name: MC_RTR3 Management IP: 172.22.74.7/26
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Router 4 in 1MC074 room,admin,HKadmin10!,,Name: MC_RTR4 Management IP: 172.22.74.8/27
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Class 1 BB switch 1 in 1MC074 room,admin,HKadmin10!,,Name: MC_BB1_SW1 Management IP: 172.22.72.242/24
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Class 2 BB switch 1 in 1MC074 room,HKadmin,HKadmin10!,,Name: MC_BB2_SW1 Management IP: 172.21.5.253/16
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Class 2 BB switch 2 in 1MC074 room,HKadmin,HKadmin10!,,Name: MC_BB2_SW2 Management IP: 172.21.5.254/16
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),SD21 in 1MC074 room,root,p,,Physical IP address: 172.22.76.42
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),SD22 in 1MC074 room,root,p,,Physical IP address: 172.22.76.43
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Untrusted BB Switch 1 in 1MC074 room,admin,HKadmin10!,,Name: MC_UBB_SW1 Management IP: 172.22.176.3/17
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Untrusted BB Switch 2 in 1MC074 room,admin,HKadmin10!,,Name: MC_UBB_SW2 Management IP: 172.22.176.4/17
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Inter-ring Switch 1 in 1MC074 room,admin,HKadmin10!,,Name: MC_IR_SW1 Management IP: 172.22.184.4/17
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Inter-ring Switch 2 in 1MC074 room,admin,HKadmin10!,,Name: MC_IR_SW2 Management IP: 172.22.184.5/17
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Inter-ring Switch 3 in 1MC074 room,admin,HKadmin10!,,Name: MC_IR_SW3 Management IP: 172.22.184.6/18
+Signalling System(CBTC),CBTC - Network Device (1MC074 room),Inter-ring Switch 4 in 1MC074 room,admin,HKadmin10!,,Name: MC_IR_SW4 Management IP: 172.22.184.7/19
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),LAN switch 1 in 1P050 room,manager,HKadmin10!,,Name: 1P_LANSW1 Management IP: 172.21.9.249/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),LAN switch 2 in 1P050 room,manager,HKadmin10!,,Name: 1P_LANSW2 Management IP: 172.21.9.250/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Firewall 1 in 1P050 room,admin,HKadmin10!,,Name: 1P_FW1 Management IP: 172.21.9.203/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Firewall 2 in 1P050 room,admin,HKadmin10!,,Name: 1P_FW2 Management IP: 172.21.9.204/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),External Interface Switch 01 in 1P050 room,admin,HKadmin10!,,Name: 1P_EXT_SW1 Management IP: 172.22.82.3/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),External Interface Switch 02 in 1P050 room,admin,HKadmin10!,,Name: 1P_EXT_SW2 Management IP: 172.22.82.4/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Router 1 in 1P050 room,admin,HKadmin10!,,Name: 1P_RTR_01 Management IP: 172.22.74.9/24
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Router 2 in 1P050 room,admin,HKadmin10!,,Name: 1P_RTR_02 Management IP: 172.22.74.10/24
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Router 3 in 1P050 room,admin,HKadmin10!,,Name: 1P_RTR_03 Management IP: 172.22.74.3/24
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Router 4 in 1P050 room,admin,HKadmin10!,,Name: 1P_RTR_04 Management IP: 172.22.74.4/24
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Class 1 BB switch 1 in 1P050 room,admin,HKadmin10!,,Name: 1P_BB1_SW1 Management IP: 172.22.74.243/24
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Class 2 BB switch 1 in 1P050 room,admin,HKadmin10!,,Name: 1P_BB2_SW1 Management IP: 172.21.9.253/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Class 2 BB switch 2 in 1P050 room,admin,HKadmin10!,,Name: 1P_BB2_SW2 Management IP: 172.21.9.254/16
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Untrusted BB switch 1 in 1P050 room,admin,HKadmin10!,,Name: 1P_UBB_SW1 Management IP: 172.22.176.5/17
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Untrusted BB switch 2 in 1P050 room,admin,HKadmin10!,,Name: 1P_UBB_SW2 Management IP: 172.22.176.6/17
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),SD Loader in 1P050 server room,root,p,,Physical IP address: 172.22.1.220
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Inter-ring Switch 1 in 1P050 server room,admin,HKadmin10!,,Name: 1P_IR_SW1 Management IP: 172.22.184.8/17
+Signalling System(CBTC),CBTC - Network Device (1P050 server room),Inter-ring Switch 2 in 1P050 server room,admin,HKadmin10!,,Name: 1P_IR_SW2 Management IP: 172.22.184.9/17
+Signalling System(CBTC),CBTC - Network Device (TDMO),LAN switch 1 in TDMO,manager,HKadmin10!,,Name: TDMOLANSW1 Management IP: 172.21.2.253/16
+Signalling System(CBTC),CBTC - Network Device (TDMO),LAN switch 2 in TDMO,manager,HKadmin10!,,Name: TDMOLANSW2 Management IP: 172.21.2.254/16
+Signalling System(CBTC),CBTC - Network Device (TDMO),LAN switch 3 in TDMO,manager,HKadmin10!,,Name: TDMOLANSW3 Management IP: 172.21.10.243/16
+Signalling System(CBTC),CBTC - Network Device (TDMO),LAN switch 4 in TDMO,manager,HKadmin10!,,Name: TDMOLANSW4 Management IP: 172.21.10.244/16
+Signalling System(CBTC),CBTC - Network Device (BIAC),LAN switch 1 in BIAC,manager,HKadmin10!,,Name: BIACLANSW1 Management IP: 172.21.3.243/16
+Signalling System(CBTC),CBTC - Network Device (BIAC),LAN switch 2 in BIAC,manager,HKadmin10!,,Name: BIACLANSW2 Management IP: 172.21.3.244/16
+Signalling System(CBTC),CBTC - Network Device (BIAC),LAN switch 3 in BIAC,manager,HKadmin10!,,Name: BIACLANSW3 Management IP: 172.21.11.243/16
+Signalling System(CBTC),CBTC - Network Device (BIAC),LAN switch 4 in BIAC,manager,HKadmin10!,,Name: BIACLANSW4 Management IP: 172.21.11.244/16
+Signalling System(CBTC),CBTC - Network Device (BCR),LAN switch 3 in BCR,manager,HKadmin10!,,Name: BCCRLANSW3 Management IP: 172.21.9.243/16
+Signalling System(CBTC),CBTC - Network Device (BCR),LAN switch 4 in BCR,manager,HKadmin10!,,Name: BCCRLANSW4 Management IP: 172.21.9.244/16
+Signalling System(CBTC),CBTC - Network Device (New IAC),LAN switch 1 in New IAC Room,manager,HKadmin10!,,Name: NIACLANSW1 Management IP: 172.21.3.241 /16
+Signalling System(CBTC),CBTC - Network Device (New IAC),LAN switch 2 in New IAC Room,manager,HKadmin10!,,Name: NIACLANSW2 Management IP: 172.21.3.242 /16
+Signalling System(CBTC),CBTC - Network Device (New IAC),LAN switch 3 in New IAC Room,manager,HKadmin10!,,Name: NIACLANSW3 Management IP: 172.21.11.241 /16
+Signalling System(CBTC),CBTC - Network Device (New IAC),LAN switch 4 in New IAC Room,manager,HKadmin10!,,Name: NIACLANSW4 Management IP: 172.21.11.242 /16
+Signalling System(CBTC),CBTC - Network Device (CCR),LAN switch 1 in CCR,manager,HKadmin10!,,Name: CCLANSW1 Management IP: 172.21.1.239 /16
+Signalling System(CBTC),CBTC - Network Device (CCR),LAN switch 2 in CCR,manager,HKadmin10!,,Name: CCLANSW2 Management IP: 172.21.11.240 /16
+Signalling System(CBTC),CBTC - Network Device (CCR),LAN switch 3 in CCR,manager,HKadmin10!,,Name: CCLANSW3 Management IP: 172.21.9.241 /16
+Signalling System(CBTC),CBTC - Network Device (CCR),LAN switch 4 in CCR,manager,HKadmin10!,,Name: CCLANSW4 Management IP: 172.21.9.242 /16
+Signalling System(CBTC),CBTC - Network Device (AIS),LAN switch 1 in New AIS Room,HKadmin,HKadmin10!,,Name: AISLANSW1 Management IP: 172.21.13.249 /16
+Signalling System(CBTC),CBTC - Network Device (AIS),LAN switch 2 in New AIS Room,HKadmin,HKadmin10!,,Name: AISLANSW2 Management IP: 172.21.13.250 /16
+Signalling System(CBTC),CBTC - Devices,OBRU/MRU Radio untrusted/Radio trusted,root,thalesSDR,,Please refer to the onboard OBRU/MRU IP address list
+Signalling System(CBTC),CBTC - Devices,WRU Network switch,admin,HKadmin10!,,Please refer to the WRU IP address list
+Signalling System(CBTC),CBTC - Devices,WRU Radio untrusted switch,root,thalesSDR,,Please refer to the WRU IP address list
+Signalling System(CBTC),CBTC - Onboard,FLMD - Windows,FLMDadmin,FLMDadmin,,FLMD - Front Line Maintenance Device
+Signalling System(CBTC),CBTC - Onboard,FLMD - Ubuntu,ubuser,ubuser,,VirtualBox Ubuntu OS
+Signalling System(CBTC),CBTC - Onboard,FLMD - Ubuntu,root,root,,VOBC SYSlog download
+Signalling System(CBTC),CBTC - Onboard,FLMD - Red Hat,rhuser,rhuser,,VirtualBox Red Hat OS
+Signalling System(CBTC),CBTC - Onboard,FLMD - Red Hat,root,p,,ZC SYSlog download (can be downloaded via WinSCP)
+Signalling System(CBTC),CBTC - CyberSecurity,SEP Manager,admin,HKadmin10!,,T1: Backup Server (SEPM 14.3) NMS Workstation (SEMP 12.2) SP: NMS Workstation (SEMP 12.2)

@@ -1,0 +1,3701 @@
+[
+  {
+    "System": "Communication System",
+    "Category": "CCTV",
+    "Equipment": "CCTV camera",
+    "Login ID": "root",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "Use onboard CCTV camera IP address to login 1)4 Car Train - 192.168.1xx.11-18 2)2 Car Train - 192.168.1xx.11-14 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "CCTV",
+    "Equipment": "Decoder",
+    "Login ID": "root",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "Use respective IP address to login 1)4 Car Train - 192.168.1xx.51-58 2)2 Car Train - 192.168.1xx.51-54 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "CCTV",
+    "Equipment": "VCA console (CCTV)",
+    "Login ID": "depot",
+    "Password": "dpass",
+    "IP": "",
+    "Remark": "(APM onboard CCTV only) Milestone login via VCA Console(connected VCA server) Server Address: http://192.168.1.221:95/ Authentication: Basic authentication"
+  },
+  {
+    "System": "Communication System",
+    "Category": "CCTV",
+    "Equipment": "NVR server",
+    "Login ID": "Administrator",
+    "Password": "P534admin",
+    "IP": "",
+    "Remark": "T1 Line, IP address: 192.168.8.6/16 SP Line, IP address: (TBA)"
+  },
+  {
+    "System": "Communication System",
+    "Category": "CCTV",
+    "Equipment": "Smart CCTV Workstation",
+    "Login ID": "APM",
+    "Password": "Apmapm2020!",
+    "IP": "",
+    "Remark": "For Smart CCTV console which maintained by Chubb of Electronics Team (All CCTV in Terminal plus APM onboard CCTV video)"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "Wayside interface server 1",
+    "Login ID": "siriushk",
+    "Password": "M4CRqtID",
+    "IP": "",
+    "Remark": "1) For T1L / RRL Located at CR40 SER, Old Depot IP address: 192.168.7.3 2) For SPL Located at 1P005 SPL SER (New SER), Old Depot IP address: 192.168.8.3"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "Wayside interface server 2",
+    "Login ID": "siriushk",
+    "Password": "Umjcflnl",
+    "IP": "",
+    "Remark": "1) For T1L / RRL Located at CR40 SER, Old Depot IP address: 192.168.7.4 2) For SPL Located at 1P005 SPL SER (New SER), Old Depot IP address: 192.168.8.4"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "EH DMS controller",
+    "Login ID": "siriushk",
+    "Password": "rBU52nG3",
+    "IP": "",
+    "Remark": "IP address - 192.168.7.20"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "WH DMS controller",
+    "Login ID": "siriushk",
+    "Password": "4z6Spcxh",
+    "IP": "",
+    "Remark": "IP address - 192.168.7.40"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "MF DMS controller",
+    "Login ID": "siriushk",
+    "Password": "rp.fa1nW",
+    "IP": "",
+    "Remark": "IP address - 192.168.7.100"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "Platform DMS (New for P534)",
+    "Login ID": "super",
+    "Password": "super2006",
+    "IP": "",
+    "Remark": "IP address 1)192.168.1.18-21 @ EHD 2)192.168.1.38-41 @ WHA 3)10.1.7.41-52 @ WHD 4)10.1.7.61-72 @ WHR 5)10.1.7.81-92 @ MFA 6)10.1.7.101-112 @ MFR"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "Platform PA AMP",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": "1)IP address - 192.168.8.11 @ EH 2)IP address - 192.168.8.12 @ WH 3)IP address - 192.168.8.13@MF 4)IP address - 192.168.8.14 @ T1A 5)IP address - 192.168.8.16 @ Pier"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "T1A DMS controller",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": "Controller IP address - 192.168.8.24 Digital Output Device IP address - 192.168.8.34"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "Pier DMS Controller",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": "Controller IP address - 192.168.8.26 Digital Output Device IP address - 192.168.8.36"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Platform PIS/PAS",
+    "Equipment": "FBTC/CBTC DMS Changeover Server (NVR Server in 1P050)",
+    "Login ID": "Administrator",
+    "Password": "P534admin",
+    "IP": "",
+    "Remark": "For SPL DMS changeover from FBTC to CBTC IP Address: 192.168.101.7"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "AP",
+    "Login ID": "root",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list IP address - 192.168.1xx.1 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "PEI",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list 1)4Car Train - 192.168.1xx.21-28 2)2Car Train - 192.168.1xx.21-24 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "TCX",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list IP address - 192.168.1xx.2 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Onboard PA amplifier",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list IP address - 192.168.1xx.3 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Onboard DMS",
+    "Login ID": "root",
+    "Password": "erphost",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list 1)4Car Train - 192.168.1xx.31-38 2)2Car Train - 192.168.1xx.31-34 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Comms NMS, Windows 10 Login",
+    "Login ID": "1) admin, for Windows 10 login 2) admin, for SyncUP Time Client",
+    "Password": "1) manager, for Windows 10 login 2) admin, for SyncUp Time Client",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list 1)192.168.8.7 for T1,RR @ BCR 2)192.168.8.10 for SP @ BCR 3) 192.168.1.108/118.35 or 192.168.3.100 or 192.168.9.9 for T1, RR @ CCR 4) 192.168.9.9 for T1, SP @ CCR"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Comms NMS, SyncUp Time Client Login",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Comms console (IPPA Paging Station)",
+    "Login ID": "admin",
+    "Password": "admin",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list 1) DCR: 192.168.9.1 @ T1 / 192.168.9.2 @ RR / 192.168.9.1 @ SP 2) CCR: 192.168.9.11 @ T1 / 192.168.9.12 @ RR / 192.168.9.11 @ SP 3) TDMO: 192.168.9.21, 192.168.9.2 @ T1 / 192.9.25192.168.9.22 @ RR / 192.168.9.21 @ SP"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Onboard Ethernet Network Switch",
+    "Login ID": "root admin",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "Please refer to the onboard comms equipment IP address list 1)4Car Train - 192.168.1xx.41-44 2)2Car Train - 192.168.1xx.41-42 Remarks: xx = car number e.g. xx = 16 for V#16 and xx = 05 for V#5"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Wayside AP",
+    "Login ID": "root",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "Please refer to the IP address assignemnt for AP in O&M manual 1)192.168.10.1-46 @ T1 2)192.168.11.1-11 @ RR 3)192.168.12.1-2 @ Depot 4)192.168.13.1-10 @ SP 5)192.168.13.11 @ SP Depot 6)192.168.13.12 @ Tee off to New Depot 7)192.168.13.13-14 @ New Depot"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "T1L Communication Exchange Server (CXS)",
+    "Login ID": "Not provided by supplier",
+    "Password": "Not provided by supplier",
+    "IP": "",
+    "Remark": "CXS1 - 192.168.8.1 CXS2 - 192.168.8.2 Not root/manager, not admin/admin"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "SPL Communication Exchange Server (CXS)",
+    "Login ID": "Not provided by supplier",
+    "Password": "Not provided by supplier",
+    "IP": "",
+    "Remark": "CXS1 - 192.168.8.1/16 CXS2 - 192.168.8.2/16 Not root/manager, not admin/admin"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Core Switch",
+    "Login ID": "admin",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "T1 line CS1&2: 192.168.8.200 SP line CS1&2: 192.168.8.200 192.168.8.230"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Access Switch",
+    "Login ID": "admin",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "T1 line AS1: 192.168.8.202 T1 line AS2: 192.168.8.203 T1 line AS5: 192.168.8.206 T1 line AS6: 192.168.8.207 T1 line AS7: 192.168.8.208 (ENS team asset) SP line AS1: 192.168.8.202 192.168.8.232 SP line AS2: 192.168.8.203 192.168.8.233 CCR T1L AS1: 192.168.8.220 CCR SPL AS1: 192.168.8.220 192.168.8.250"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "Record Server",
+    "Login ID": "Administrator",
+    "Password": "manager",
+    "IP": "",
+    "Remark": "T1 line Record Server: 192.168.8.10 SP line Record Server: 192.168.8.11"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms",
+    "Equipment": "New NMS Server",
+    "Login ID": "1) admin, for Windows Server login 2) admin, for H3C iMC",
+    "Password": "1) P@ssw0rd, for Windows Server login 2) Pwd@12345, for H3C iMC",
+    "IP": "",
+    "Remark": "T1 line New NMS Server: 192.168.8.241 SP line New NMS Server: 192.168.8.242"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CCR",
+    "Equipment": "COMMS NMS",
+    "Login ID": "admin (windows) admin (SyncUP)",
+    "Password": "APMv6[COMMS! admin",
+    "IP": "192.168.9.9",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CCR",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.11",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CCR",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.12",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CCR",
+    "Equipment": "Echo PA Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.15",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CCR",
+    "Equipment": "Access Switch #1/#2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.220",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - IAC",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.31",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - IAC",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.32",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - IAC",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.33",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - IAC",
+    "Equipment": "Echo PA Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.35",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - IAC",
+    "Equipment": "Echo PA Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.36",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - IAC",
+    "Equipment": "Access Switch #1/#2",
+    "Login ID": "admin",
+    "Password": "aPMv6[COMMS!",
+    "IP": "192.168.8.221",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - IAC",
+    "Equipment": "Access Switch #1/#2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.221",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CR40",
+    "Equipment": "Core Switch #1/#2/#3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.200",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CR40",
+    "Equipment": "Access Switch #1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.202",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CR40",
+    "Equipment": "Access Switch #2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.203",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CR40",
+    "Equipment": "Server",
+    "Login ID": "admin (windows) admin (H3C iMC)",
+    "Password": "P@ssw0rd Pwd@12345",
+    "IP": "192.168.8.241",
+    "Remark": "VLAN ID : 10"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CR40",
+    "Equipment": "Server",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.8.243",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CR40",
+    "Equipment": "CXS1",
+    "Login ID": "Not provided by supplier",
+    "Password": "Not provided by supplier",
+    "IP": "192.168.8.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - CR40",
+    "Equipment": "CXS2",
+    "Login ID": "Not provided by supplier",
+    "Password": "Not provided by supplier",
+    "IP": "192.168.8.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BCR",
+    "Equipment": "COMMS NMS",
+    "Login ID": "admin (windows) admin (SyncUP)",
+    "Password": "APMv6[COMMS! admin",
+    "IP": "192.168.8.7",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BCR",
+    "Equipment": "COMMS NMS",
+    "Login ID": "admin (windows) admin (SyncUP)",
+    "Password": "APMv6[COMMS! admin",
+    "IP": "192.168.8.10",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BCR",
+    "Equipment": "Comms Console (item missing)",
+    "Login ID": "admin",
+    "Password": "",
+    "IP": "192.168.9.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BCR",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.6",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BCR",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BCR",
+    "Equipment": "Echo PA Amplifier",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.9.8",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BCR",
+    "Equipment": "Echo PA Amplifier",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.9.5",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BIAC",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BIAC",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BIAC",
+    "Equipment": "Comms Console",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BIAC",
+    "Equipment": "Echo PA Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.45",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BIAC",
+    "Equipment": "Echo PA Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.9.46",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - BIAC",
+    "Equipment": "Access Switch #1/#2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.222",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - 1P050",
+    "Equipment": "Core Switch #1/#2/#3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.230",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - 1P050",
+    "Equipment": "Access Switch #1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.232",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - 1P050",
+    "Equipment": "Access Switch #2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.8.233",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - 1P050",
+    "Equipment": "Server",
+    "Login ID": "admin (windows) admin (H3C iMC)",
+    "Password": "P@ssw0rd Pwd@12345",
+    "IP": "192.168.8.242",
+    "Remark": "VLAN ID : 10"
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - 1P050",
+    "Equipment": "Server",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.8.244",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - 1P050",
+    "Equipment": "CXS1",
+    "Login ID": "Not provided by supplier",
+    "Password": "Not provided by supplier",
+    "IP": "192.168.8.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - 1P050",
+    "Equipment": "CXS2",
+    "Login ID": "Not provided by supplier",
+    "Password": "Not provided by supplier",
+    "IP": "192.168.8.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Tunnnel AP",
+    "Equipment": "Wireless Access Point (AP1-48)",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.10.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Tunnnel AP",
+    "Equipment": "Wireless Access Point (RR-AP1-11)",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.11.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Tunnnel AP",
+    "Equipment": "Wireless Access Point (SP-AP1-14)",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.13.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.105.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.105.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.105.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "(#1-8)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.105.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.105.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "Ethernet Switch at MC2*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.105.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "Ethernet Switch at MC3*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.105.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 5",
+    "Equipment": "Ethernet Switch at MC4",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.105.44",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.106.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.106.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.106.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "(#1-8)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.106.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.106.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.106.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "Ethernet Switch at MC3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.106.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 6",
+    "Equipment": "Ethernet Switch at MC4*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.106.44",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.107.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.107.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.107.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "(#1-8)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.107.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.107.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.107.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "Ethernet Switch at MC3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.107.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 7",
+    "Equipment": "Ethernet Switch at MC4*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.107.44",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.108.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.108.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.108.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "(#1-8)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.108.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.108.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "Ethernet Switch at MC2*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.108.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "Ethernet Switch at MC3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.108.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 8",
+    "Equipment": "Ethernet Switch at MC4*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.108.44",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.109.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.109.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.109.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "(#1-8)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.109.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.109.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "no ping respons!!",
+    "IP": "192.168.109.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "Ethernet Switch at MC3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.109.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 9",
+    "Equipment": "Ethernet Switch at MC4",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.109.44",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 10",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.110.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 10",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.110.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 10",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.110.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 10",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.110.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 10",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.110.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 10",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.110.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 11",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.111.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 11",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.111.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 11",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.111.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 11",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.111.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 11",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.111.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 11",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.111.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 12",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.112.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 12",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.112.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 12",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.112.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 12",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.112.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 12",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.112.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 12",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.112.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 13",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.113.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 13",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.113.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 13",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.113.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 13",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.113.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 13",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.113.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 13",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.113.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 14",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.114.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 14",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.114.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 14",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.114.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 14",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.114.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 14",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.114.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 14",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.114.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 15",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.115.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 15",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.115.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 15",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.115.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 15",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.115.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 15",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.115.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 15",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.115.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 16",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.116.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 16",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.116.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 16",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.116.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 16",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.116.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 16",
+    "Equipment": "Ethernet Switch at MC1*",
+    "Login ID": "admin",
+    "Password": "APMv6COMMS",
+    "IP": "192.168.116.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 16",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.116.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 17",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.117.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 17",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.117.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 17",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.117.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 17",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.117.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 17",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.117.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 17",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.117.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 18",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.118.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 18",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.118.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 18",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.118.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 18",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.118.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 18",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.118.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 18",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.118.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 19",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.119.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 19",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.119.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 19",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.119.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 19",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.119.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 19",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.119.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 19",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.119.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.120.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.120.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.120.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "(#1-8)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.120.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.120.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.120.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "Ethernet Switch at MC3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.120.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 20",
+    "Equipment": "Ethernet Switch at MC4",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.120.44",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 21",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.121.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 21",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.121.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 21",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.121.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 21",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.121.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 21",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.121.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 21",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.121.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 22",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.122.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 22",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.122.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 22",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.122.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 22",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.122.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 22",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.122.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 22",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.122.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.123.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.123.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.123.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "(#1-8)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.123.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.123.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.123.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "Ethernet Switch at MC3",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.123.43",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 23",
+    "Equipment": "Ethernet Switch at MC4",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.123.44",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 24",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.124.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 24",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.124.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 24",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.124.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 24",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.124.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 24",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.124.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 24",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.124.42",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 25",
+    "Equipment": "Access Point",
+    "Login ID": "root",
+    "Password": "APMv6COMMS!",
+    "IP": "192.168.125.1",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 25",
+    "Equipment": "Controller",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.125.2",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 25",
+    "Equipment": "Amplifier",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.125.3",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 25",
+    "Equipment": "(#1-4)",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.125.21",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 25",
+    "Equipment": "Ethernet Switch at MC1",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.125.41",
+    "Remark": ""
+  },
+  {
+    "System": "Communication System",
+    "Category": "Comms - Vehicle 25",
+    "Equipment": "Ethernet Switch at MC2",
+    "Login ID": "admin",
+    "Password": "APMv6[COMMS!",
+    "IP": "192.168.125.42",
+    "Remark": ""
+  },
+  {
+    "System": "Other Systems",
+    "Category": "Incident Timing System",
+    "Equipment": "Workstation",
+    "Login ID": "admin",
+    "Password": "adm@1326",
+    "IP": "",
+    "Remark": ""
+  },
+  {
+    "System": "Other Systems",
+    "Category": "Incident Timing System",
+    "Equipment": "Video extender",
+    "Login ID": "Administrator",
+    "Password": "password",
+    "IP": "",
+    "Remark": "ATEN 8900 TX:192.168.0.201 (CR40) RX:192.168.0.211 (APM Depot) TX: 192.168.0.202 (CR40) RX: 192.168.0.212 (TDMO) TX: 192.168.0.203 (CR40) RX: 192.168.0.213 (IAC)"
+  },
+  {
+    "System": "Other Systems",
+    "Category": "Incident Timing System",
+    "Equipment": "Network switch",
+    "Login ID": "admin",
+    "Password": "cisco",
+    "IP": "",
+    "Remark": "CSICO 3850D-24T"
+  },
+  {
+    "System": "Other Systems",
+    "Category": "GBMS",
+    "Equipment": "GBMS Workstation Windows Login",
+    "Login ID": "C3602",
+    "Password": "12345678",
+    "IP": "",
+    "Remark": ""
+  },
+  {
+    "System": "PSD System",
+    "Category": "T1 Shun Hing",
+    "Equipment": "Panasonic PSD PLC",
+    "Login ID": "pewish",
+    "Password": "vipvip",
+    "IP": "",
+    "Remark": "PEDC ScreenDoor software for PLC"
+  },
+  {
+    "System": "PSD System",
+    "Category": "T1 Shun Hing",
+    "Equipment": "Panasonic PSD workstation",
+    "Login ID": "user",
+    "Password": "(blank)",
+    "IP": "",
+    "Remark": "Windows 10 login account"
+  },
+  {
+    "System": "PSD System",
+    "Category": "T1 Shun Hing",
+    "Equipment": "SHSI(Shun Hing) PSD MMI",
+    "Login ID": "pewish",
+    "Password": "vipvip",
+    "IP": "",
+    "Remark": "PSD MMI Program"
+  },
+  {
+    "System": "PSD System",
+    "Category": "SPL CNIM",
+    "Equipment": "CNIM PSD Server",
+    "Login ID": "cnimhk",
+    "Password": "apm@2013",
+    "IP": "",
+    "Remark": "IP: 192.168.50.65"
+  },
+  {
+    "System": "PSD System",
+    "Category": "SPL CNIM",
+    "Equipment": "CNIM PSD Software",
+    "Login ID": "administrator",
+    "Password": "apm@2013",
+    "IP": "",
+    "Remark": ""
+  },
+  {
+    "System": "PSD System",
+    "Category": "SPL CNIM",
+    "Equipment": "CNIM PSD DCU Software",
+    "Login ID": "(blank)",
+    "Password": "troll",
+    "IP": "",
+    "Remark": "For CNIM PSD DCU Configuration"
+  },
+  {
+    "System": "PSD System",
+    "Category": "SPL MHI",
+    "Equipment": "MHI PSD Server",
+    "Login ID": "",
+    "Password": "123456",
+    "IP": "",
+    "Remark": "IP: 192.168.50.101"
+  },
+  {
+    "System": "PSD System",
+    "Category": "SPL PSD Integrated",
+    "Equipment": "Merged MHI & CNIM workstation windows (by 3602)",
+    "Login ID": "user",
+    "Password": "1qaz@WSX",
+    "IP": "",
+    "Remark": "Users Account (IP: 192.168.62.100)"
+  },
+  {
+    "System": "PSD System",
+    "Category": "SPL PSD Integrated",
+    "Equipment": "Merged MHI & CNIM workstation windows (by 3602)",
+    "Login ID": "vncuser",
+    "Password": "3edc$RFV5tgb",
+    "IP": "",
+    "Remark": "Administrator Account"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "SCADA software",
+    "Login ID": "engineer",
+    "Password": "engineer",
+    "IP": "",
+    "Remark": "User 1"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "SCADA software",
+    "Login ID": "T1OP",
+    "Password": "T1OP",
+    "IP": "",
+    "Remark": "User 2"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "SCADA software",
+    "Login ID": "RROP",
+    "Password": "RROP",
+    "IP": "",
+    "Remark": "User 3"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "SCADA Windows login",
+    "Login ID": "Administrator",
+    "Password": "Apm00000",
+    "IP": "",
+    "Remark": "Server Engineer Level"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "SCADA Windows login",
+    "Login ID": "SCADA",
+    "Password": "SCADA",
+    "IP": "",
+    "Remark": "Server Operator Level"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "SCADA Windows login",
+    "Login ID": "Engineer",
+    "Password": "Engineer",
+    "IP": "",
+    "Remark": "Workstation Engineer Level"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "SCADA Windows login",
+    "Login ID": "SPOP",
+    "Password": "SPOP",
+    "IP": "",
+    "Remark": "Workstation Operator Level"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "SCADA Software",
+    "Equipment": "FTP client",
+    "Login ID": "ntpupdate",
+    "Password": "ntpupdate",
+    "IP": "",
+    "Remark": "FTP server: /FLASH0/wwwroot/conf/NTP FTP client: /FLASH0/wwwroot/conf/NTP/customrules"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "CCR",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "192.168.3.109",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "CCR",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "192.168.3.110",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "CCR",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "10.22.91.109",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "IAC",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "192.168.3.107",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "IAC",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "192.168.3.108",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "IAC",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "10.22.91.107",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "BCR",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer",
+    "Password": "APMv6[SCADA!",
+    "IP": "192.168.3.101",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "BCR",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer",
+    "Password": "APMv6[SCADA!",
+    "IP": "192.168.3.102",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "BCR",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer",
+    "Password": "APMv6[SCADA!",
+    "IP": "10.22.91.101",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "BIAC",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "192.168.3.105",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "BIAC",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "192.168.3.106",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "BIAC",
+    "Equipment": "APM SCADA Console",
+    "Login ID": "Engineer SPOP",
+    "Password": "Engineer SPOP",
+    "IP": "10.22.91.105",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "CR40",
+    "Equipment": "Server 1",
+    "Login ID": "Administrator SCADA",
+    "Password": "Apm00000 SCADA",
+    "IP": "192.168.3.201",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "CR40",
+    "Equipment": "Server 2",
+    "Login ID": "Administrator SCADA",
+    "Password": "Apm00000 SCADA",
+    "IP": "192.168.3.202",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "1P050",
+    "Equipment": "Server 1",
+    "Login ID": "Administrator SCADA",
+    "Password": "Apm00000 SCADA",
+    "IP": "10.22.91.201",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "1P050",
+    "Equipment": "Server 2",
+    "Login ID": "Administrator SCADA",
+    "Password": "Apm00000 SCADA",
+    "IP": "10.22.91.202",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-A",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.3",
+    "Remark": "Ethernet to RS485 Gateway of RTU-A & B & C"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-B",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.3",
+    "Remark": "Ethernet to RS485 Gateway of RTU-A & B & C"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-C",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.3",
+    "Remark": "Ethernet to RS485 Gateway of RTU-A & B & C"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-D",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.4",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-E",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.5",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-F",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.6",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-G",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.7",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-H",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.8",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-I",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.9",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-J",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.9",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "Unknown",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.13",
+    "Remark": "CR40_AS1 1/0/21"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "Unknown",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.14",
+    "Remark": "CR40_AS1 1/0/21"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "Unknown",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.15",
+    "Remark": "CR40_AS2 1/0/21"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "Unknown",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.16",
+    "Remark": "CR40_AS2 1/0/21"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "Unknown",
+    "Login ID": "",
+    "Password": "",
+    "IP": "192.168.3.116",
+    "Remark": "BIAC-T1-LAN 1/0/12"
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-X",
+    "Login ID": "",
+    "Password": "",
+    "IP": "10.22.91.21",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-Y",
+    "Login ID": "",
+    "Password": "",
+    "IP": "10.22.91.22",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-Z",
+    "Login ID": "",
+    "Password": "",
+    "IP": "10.22.91.23",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-W",
+    "Login ID": "",
+    "Password": "",
+    "IP": "10.22.91.31",
+    "Remark": ""
+  },
+  {
+    "System": "SCADA System",
+    "Category": "RTU & Unknown device",
+    "Equipment": "RTU-V",
+    "Login ID": "",
+    "Password": "",
+    "IP": "10.22.91.31",
+    "Remark": ""
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Server",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Server",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Server",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Database Server",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Database Server",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Database Server",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MSA Data Array",
+    "Login ID": "monitor",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MSA Data Array",
+    "Login ID": "manage",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Backup Server",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Backup Server",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Backup Server",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Diagnostic Server",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Diagnostic Server",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Diagnostic Server",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Data Recorder",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Data Recorder",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Data Recorder",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL CA Server",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL CA Server",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL CA Server",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Workstation",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Workstation",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Workstation",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Workstation (IAC)",
+    "Login ID": "HKuser",
+    "Password": "HKuser10!",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Workstation (IAC)",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ATS Workstation (IAC)",
+    "Login ID": "sysadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "Admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "ATS: Admidmistrative account for ATS Workstation"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "ABD-T1L-OC",
+    "Password": "ABD-T1L-OC!",
+    "IP": "",
+    "Remark": "ATS: APMOC T1L account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "ABD-SPL-OC",
+    "Password": "ABD-SPL-OC!",
+    "IP": "",
+    "Remark": "ATS: APMOC SPL account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "ABD-AM",
+    "Password": "ABD-AM!",
+    "IP": "",
+    "Remark": "ATS: APMAM account (T1 & SP)"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "T1L-MC-TH",
+    "Password": "T1L-MC-TH?!",
+    "IP": "",
+    "Remark": "ATS: APMMC T1L TH account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "SPL-MC-TH",
+    "Password": "SPL-MC-TH?!",
+    "IP": "",
+    "Remark": "ATS: APMMC SPL TH account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "T1L-MC",
+    "Password": "T1L-MC?!",
+    "IP": "",
+    "Remark": "ATS: APMMC T1L NTH account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "ATS Software",
+    "Login ID": "SPL-MC",
+    "Password": "SPL-MC?!",
+    "IP": "",
+    "Remark": "ATS: APMMC SPL NTH account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Diagnostic Workstation",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Diagnostic Workstation",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Diagnostic Workstation",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MIMIC Workstation",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MIMIC Workstation",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MIMIC Workstation",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MIMIC Workstation (IAC)",
+    "Login ID": "HKuser",
+    "Password": "HKuser10!",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MIMIC Workstation (IAC)",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL MIMIC Workstation (IAC)",
+    "Login ID": "sysadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL LATS Workstation",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL LATS Workstation",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL LATS Workstation",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL LATS Workstation (IAC)",
+    "Login ID": "HKuser",
+    "Password": "HKuser10!",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL LATS Workstation (IAC)",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL LATS Workstation (IAC)",
+    "Login ID": "sysadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Trusted NMS Workstation",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Trusted NMS Workstation",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL Trusted NMS Workstation",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ZC Diagnostic Collector",
+    "Login ID": "HKuser",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: User account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ZC Diagnostic Collector",
+    "Login ID": "HKadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Computer",
+    "Equipment": "T1&RRL or SPL ZC Diagnostic Collector",
+    "Login ID": "sysadmin",
+    "Password": "APMv6[ml",
+    "IP": "",
+    "Remark": "OS: Built-in administrative account"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "LAN switch 1 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40LANSW1 Management IP:172.21.1.249/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "LAN switch 2 in CR40 server room",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40LANSW2 Management IP:172.21.1.250/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Firewall 1 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name:CR40_FW1 Cluster Name: CR40_FW, Password: CR40_FW Managent IP: 172.21.1.200/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Firewall 2 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name:CR40_FW1 Cluster Name: CR40_FW, Password: CR40_FW Managent IP: 172.21.1.200/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "External Interface Switch 01 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40BRD1 Management IP: 172.22.82.3/27"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "External Interface Switch 02 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40BRD2 Management IP: 172.22.82.4/27"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Router 1 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "private",
+    "IP": "",
+    "Remark": "Name: CR40_RTR1 Management IP: 172.22.74.1/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Router 2 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "private",
+    "IP": "",
+    "Remark": "Name: CR40_RTR2 Management IP: 172.22.74.2/25"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Router 3 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_RTR3 Management IP: 172.22.74.3/26"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Router 4 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_RTR4 Management IP: 172.22.74.4/27"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Class 1 BB Switch 1 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_BB1_SW1 Management IP: 172.22.72.241/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Class 2 BB Switch 1 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_BB2_SW1 Management IP: 172.21.253/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Class 2 BB Switch 2 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_BB2_SW2 Management IP: 172.21.254/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "SD11 in CR40 server room",
+    "Login ID": "root",
+    "Password": "p",
+    "IP": "",
+    "Remark": "Physical IP address: 172.22.76.2"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "SD12 in CR40 server room",
+    "Login ID": "root",
+    "Password": "p",
+    "IP": "",
+    "Remark": "Physical IP address: 172.22.76.3"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "SD Loader in CR40 server room",
+    "Login ID": "root",
+    "Password": "p",
+    "IP": "",
+    "Remark": "Physical IP address: 172.22.1.210"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Untrusted BB Switch 1 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_UBB_SW1 Management IP: 172.22.176.1/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Untrusted BB Switch 2 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_UBB_SW2 Management IP: 172.22.176.2/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Inter-ring Switch 1 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_IR_SW1 Management IP: 172.22.184.1/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CR40 server room)",
+    "Equipment": "Inter-ring Switch 2 in CR40 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CR40_IR_SW2 Management IP: 172.22.184.3/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (EH Computer room)",
+    "Equipment": "LAN switch 1 in EH Computer room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: APMLANSW1 Management IP: 172.21.1.241/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (EH Computer room)",
+    "Equipment": "LAN switch 2 in EH Computer room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: APMLANSW2 Management IP: 172.21.1.242/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "LAN switch 1 in 1MC074 room",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MCLANSW1 Management IP: 172.21.251/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "LAN switch 2 in 1MC074 room",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MCLANSW2 Management IP: 172.21.252/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Router 1 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "private",
+    "IP": "",
+    "Remark": "Name: MC_RTR1 Management IP: 172.22.74.5/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Router 2 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "private",
+    "IP": "",
+    "Remark": "Name: MC_RTR2 Management IP: 172.22.74.6/25"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Router 3 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_RTR3 Management IP: 172.22.74.7/26"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Router 4 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_RTR4 Management IP: 172.22.74.8/27"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Class 1 BB switch 1 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_BB1_SW1 Management IP: 172.22.72.242/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Class 2 BB switch 1 in 1MC074 room",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_BB2_SW1 Management IP: 172.21.5.253/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Class 2 BB switch 2 in 1MC074 room",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_BB2_SW2 Management IP: 172.21.5.254/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "SD21 in 1MC074 room",
+    "Login ID": "root",
+    "Password": "p",
+    "IP": "",
+    "Remark": "Physical IP address: 172.22.76.42"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "SD22 in 1MC074 room",
+    "Login ID": "root",
+    "Password": "p",
+    "IP": "",
+    "Remark": "Physical IP address: 172.22.76.43"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Untrusted BB Switch 1 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_UBB_SW1 Management IP: 172.22.176.3/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Untrusted BB Switch 2 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_UBB_SW2 Management IP: 172.22.176.4/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Inter-ring Switch 1 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_IR_SW1 Management IP: 172.22.184.4/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Inter-ring Switch 2 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_IR_SW2 Management IP: 172.22.184.5/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Inter-ring Switch 3 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_IR_SW3 Management IP: 172.22.184.6/18"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1MC074 room)",
+    "Equipment": "Inter-ring Switch 4 in 1MC074 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: MC_IR_SW4 Management IP: 172.22.184.7/19"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "LAN switch 1 in 1P050 room",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_LANSW1 Management IP: 172.21.9.249/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "LAN switch 2 in 1P050 room",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_LANSW2 Management IP: 172.21.9.250/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Firewall 1 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_FW1 Management IP: 172.21.9.203/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Firewall 2 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_FW2 Management IP: 172.21.9.204/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "External Interface Switch 01 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_EXT_SW1 Management IP: 172.22.82.3/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "External Interface Switch 02 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_EXT_SW2 Management IP: 172.22.82.4/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Router 1 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_RTR_01 Management IP: 172.22.74.9/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Router 2 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_RTR_02 Management IP: 172.22.74.10/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Router 3 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_RTR_03 Management IP: 172.22.74.3/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Router 4 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_RTR_04 Management IP: 172.22.74.4/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Class 1 BB switch 1 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_BB1_SW1 Management IP: 172.22.74.243/24"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Class 2 BB switch 1 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_BB2_SW1 Management IP: 172.21.9.253/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Class 2 BB switch 2 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_BB2_SW2 Management IP: 172.21.9.254/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Untrusted BB switch 1 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_UBB_SW1 Management IP: 172.22.176.5/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Untrusted BB switch 2 in 1P050 room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_UBB_SW2 Management IP: 172.22.176.6/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "SD Loader in 1P050 server room",
+    "Login ID": "root",
+    "Password": "p",
+    "IP": "",
+    "Remark": "Physical IP address: 172.22.1.220"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Inter-ring Switch 1 in 1P050 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_IR_SW1 Management IP: 172.22.184.8/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (1P050 server room)",
+    "Equipment": "Inter-ring Switch 2 in 1P050 server room",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: 1P_IR_SW2 Management IP: 172.22.184.9/17"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (TDMO)",
+    "Equipment": "LAN switch 1 in TDMO",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: TDMOLANSW1 Management IP: 172.21.2.253/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (TDMO)",
+    "Equipment": "LAN switch 2 in TDMO",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: TDMOLANSW2 Management IP: 172.21.2.254/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (TDMO)",
+    "Equipment": "LAN switch 3 in TDMO",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: TDMOLANSW3 Management IP: 172.21.10.243/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (TDMO)",
+    "Equipment": "LAN switch 4 in TDMO",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: TDMOLANSW4 Management IP: 172.21.10.244/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (BIAC)",
+    "Equipment": "LAN switch 1 in BIAC",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: BIACLANSW1 Management IP: 172.21.3.243/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (BIAC)",
+    "Equipment": "LAN switch 2 in BIAC",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: BIACLANSW2 Management IP: 172.21.3.244/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (BIAC)",
+    "Equipment": "LAN switch 3 in BIAC",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: BIACLANSW3 Management IP: 172.21.11.243/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (BIAC)",
+    "Equipment": "LAN switch 4 in BIAC",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: BIACLANSW4 Management IP: 172.21.11.244/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (BCR)",
+    "Equipment": "LAN switch 3 in BCR",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: BCCRLANSW3 Management IP: 172.21.9.243/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (BCR)",
+    "Equipment": "LAN switch 4 in BCR",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: BCCRLANSW4 Management IP: 172.21.9.244/16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (New IAC)",
+    "Equipment": "LAN switch 1 in New IAC Room",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: NIACLANSW1 Management IP: 172.21.3.241 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (New IAC)",
+    "Equipment": "LAN switch 2 in New IAC Room",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: NIACLANSW2 Management IP: 172.21.3.242 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (New IAC)",
+    "Equipment": "LAN switch 3 in New IAC Room",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: NIACLANSW3 Management IP: 172.21.11.241 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (New IAC)",
+    "Equipment": "LAN switch 4 in New IAC Room",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: NIACLANSW4 Management IP: 172.21.11.242 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CCR)",
+    "Equipment": "LAN switch 1 in CCR",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CCLANSW1 Management IP: 172.21.1.239 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CCR)",
+    "Equipment": "LAN switch 2 in CCR",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CCLANSW2 Management IP: 172.21.11.240 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CCR)",
+    "Equipment": "LAN switch 3 in CCR",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CCLANSW3 Management IP: 172.21.9.241 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (CCR)",
+    "Equipment": "LAN switch 4 in CCR",
+    "Login ID": "manager",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: CCLANSW4 Management IP: 172.21.9.242 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (AIS)",
+    "Equipment": "LAN switch 1 in New AIS Room",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: AISLANSW1 Management IP: 172.21.13.249 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Network Device (AIS)",
+    "Equipment": "LAN switch 2 in New AIS Room",
+    "Login ID": "HKadmin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Name: AISLANSW2 Management IP: 172.21.13.250 /16"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Devices",
+    "Equipment": "OBRU/MRU Radio untrusted/Radio trusted",
+    "Login ID": "root",
+    "Password": "thalesSDR",
+    "IP": "",
+    "Remark": "Please refer to the onboard OBRU/MRU IP address list"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Devices",
+    "Equipment": "WRU Network switch",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "Please refer to the WRU IP address list"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Devices",
+    "Equipment": "WRU Radio untrusted switch",
+    "Login ID": "root",
+    "Password": "thalesSDR",
+    "IP": "",
+    "Remark": "Please refer to the WRU IP address list"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Onboard",
+    "Equipment": "FLMD - Windows",
+    "Login ID": "FLMDadmin",
+    "Password": "FLMDadmin",
+    "IP": "",
+    "Remark": "FLMD - Front Line Maintenance Device"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Onboard",
+    "Equipment": "FLMD - Ubuntu",
+    "Login ID": "ubuser",
+    "Password": "ubuser",
+    "IP": "",
+    "Remark": "VirtualBox Ubuntu OS"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Onboard",
+    "Equipment": "FLMD - Ubuntu",
+    "Login ID": "root",
+    "Password": "root",
+    "IP": "",
+    "Remark": "VOBC SYSlog download"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Onboard",
+    "Equipment": "FLMD - Red Hat",
+    "Login ID": "rhuser",
+    "Password": "rhuser",
+    "IP": "",
+    "Remark": "VirtualBox Red Hat OS"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - Onboard",
+    "Equipment": "FLMD - Red Hat",
+    "Login ID": "root",
+    "Password": "p",
+    "IP": "",
+    "Remark": "ZC SYSlog download (can be downloaded via WinSCP)"
+  },
+  {
+    "System": "Signalling System(CBTC)",
+    "Category": "CBTC - CyberSecurity",
+    "Equipment": "SEP Manager",
+    "Login ID": "admin",
+    "Password": "HKadmin10!",
+    "IP": "",
+    "Remark": "T1: Backup Server (SEPM 14.3) NMS Workstation (SEMP 12.2) SP: NMS Workstation (SEMP 12.2)"
+  }
+]

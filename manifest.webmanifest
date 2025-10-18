@@ -1,0 +1,9 @@
+{
+  "name": "APM Systems Password Search",
+  "short_name": "APM Search",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": []
+}
